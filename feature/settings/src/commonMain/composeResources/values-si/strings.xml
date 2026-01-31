@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2026 Mifos Initiative
+
+    This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
+    If a copy of the MPL was not distributed with this file,
+    You can obtain one at https://mozilla.org/MPL/2.0/.
+
+    See https://github.com/openMF/mobile-mobile/blob/master/LICENSE.md
+-->
+<resources>
+    <string name="feature_settings_top_app_bar_action_icon_description">පහසුකම්</string>
+    <string name="feature_settings_top_app_bar_navigation_icon_description">ගවේෂණය</string>
+    <string name="feature_settings_title">පහසුකම්</string>
+    <string name="feature_settings_loading">විශාලනය වෙමින් පවතී…</string>
+    <string name="feature_settings_privacy_policy">ගෝපීයතා ප්‍රතිපත්ති</string>
+    <string name="feature_settings_licenses">අනුමැතිය</string>
+    <string name="feature_settings_brand_guidelines">බ්‍රෑන්ඩ් මාර්ගෝපදේශ</string>
+    <string name="feature_settings_feedback">ප්‍රතිපෝෂණය</string>
+    <string name="feature_settings_theme">ආකෘතිය</string>
+    <string name="feature_settings_brand_default">පෙරනිම</string>
+    <string name="feature_settings_brand_android">ඇන්ඩ්‍රොයිඩ්</string>
+    <string name="feature_settings_dark_mode_preference">අඳුරු මාදිලි කැමැත්ත</string>
+    <string name="feature_settings_dark_mode_config_system_default">පද්ධති පෙරනිම</string>
+    <string name="feature_settings_dark_mode_config_light">ආලෝකය</string>
+    <string name="feature_settings_dark_mode_config_dark">අඳුර</string>
+    <string name="feature_settings_dynamic_color_preference">වර්ණවත් අංගයක් භාවිතා කරන්න</string>
+    <string name="feature_settings_dynamic_color_yes">ඔව්</string>
+    <string name="feature_settings_dynamic_color_no">නැහැ</string>
+    <string name="feature_settings_dismiss_dialog_button_text">හරි</string>
+    <string name="feature_settings_change_theme_text">පිටපොත වෙනස් කරන්න</string>
+    <string name="feature_settings_change_theme_placeholder_text">පිටපොත වෙනස් කරන්න</string>
+    <string name="feature_settings_change_language_text">භාෂාව වෙනස් කරන්න</string>
+    <string name="feature_settings_change_language_placeholder_text">භාෂාව වෙනස් කරන්න</string>
+    <string name="feature_settings_language_preference">භාෂාව</string>
+</resources>

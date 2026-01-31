@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2026 Mifos Initiative
+
+    This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
+    If a copy of the MPL was not distributed with this file,
+    You can obtain one at https://mozilla.org/MPL/2.0/.
+
+    See https://github.com/openMF/mobile-mobile/blob/master/LICENSE.md
+-->
+<resources>
+    <string name="feature_settings_top_app_bar_action_icon_description">ការកំណត់</string>
+    <string name="feature_settings_top_app_bar_navigation_icon_description">ស្វែងរក</string>
+    <string name="feature_settings_title">ការកំណត់</string>
+    <string name="feature_settings_loading">កំពុងផ្ទុក…</string>
+    <string name="feature_settings_privacy_policy">គោលការណ៍ភាពជាសំរែត</string>
+    <string name="feature_settings_licenses">អាជ្ញាប័ណ្ណ</string>
+    <string name="feature_settings_brand_guidelines">ការណែនាំអំពីម៉ាក</string>
+    <string name="feature_settings_feedback">ប្រតិកម្ម</string>
+    <string name="feature_settings_theme">Theme</string>
+    <string name="feature_settings_brand_default">Default</string>
+    <string name="feature_settings_brand_android">Android</string>
+    <string name="feature_settings_dark_mode_preference">ការកំណត់ចំណូលចិត្តរបៀបងងឹត</string>
+    <string name="feature_settings_dark_mode_config_system_default">Default របស់ប្រព័ន្ធ</string>
+    <string name="feature_settings_dark_mode_config_light">ភ្លឺ</string>
+    <string name="feature_settings_dark_mode_config_dark">ងងឹត</string>
+    <string name="feature_settings_dynamic_color_preference">ប្រើពណ៌ផ្លាស់ប្តូរ</string>
+    <string name="feature_settings_dynamic_color_yes">បាទ</string>
+    <string name="feature_settings_dynamic_color_no">ទេ</string>
+    <string name="feature_settings_dismiss_dialog_button_text">យល់ព្រម</string>
+    <string name="feature_settings_change_theme_text">ផ្លាស់ប្តូរTheme</string>
+    <string name="feature_settings_change_theme_placeholder_text">ផ្លាស់ប្តូរTheme</string>
+    <string name="feature_settings_change_language_text">ផ្លាស់ប្តូរភាសា</string>
+    <string name="feature_settings_change_language_placeholder_text">ផ្លាស់ប្តូរភាសា</string>
+    <string name="feature_settings_language_preference">ភាសា</string>
+</resources>

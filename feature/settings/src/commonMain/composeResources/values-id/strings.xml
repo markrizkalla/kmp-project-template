@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2026 Mifos Initiative
+
+    This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
+    If a copy of the MPL was not distributed with this file,
+    You can obtain one at https://mozilla.org/MPL/2.0/.
+
+    See https://github.com/openMF/mobile-mobile/blob/master/LICENSE.md
+-->
+<resources>
+    <string name="feature_settings_top_app_bar_action_icon_description">Pengaturan</string>
+    <string name="feature_settings_top_app_bar_navigation_icon_description">Cari</string>
+    <string name="feature_settings_title">Pengaturan</string>
+    <string name="feature_settings_loading">Memuat…</string>
+    <string name="feature_settings_privacy_policy">Kebijakan privasi</string>
+    <string name="feature_settings_licenses">Lisensi</string>
+    <string name="feature_settings_brand_guidelines">Panduan Merek</string>
+    <string name="feature_settings_feedback">Umpan Balik</string>
+    <string name="feature_settings_theme">Tema</string>
+    <string name="feature_settings_brand_default">Default</string>
+    <string name="feature_settings_brand_android">Android</string>
+    <string name="feature_settings_dark_mode_preference">Preferensi mode gelap</string>
+    <string name="feature_settings_dark_mode_config_system_default">Default sistem</string>
+    <string name="feature_settings_dark_mode_config_light">Terang</string>
+    <string name="feature_settings_dark_mode_config_dark">Gelap</string>
+    <string name="feature_settings_dynamic_color_preference">Gunakan Warna Dinamis</string>
+    <string name="feature_settings_dynamic_color_yes">Ya</string>
+    <string name="feature_settings_dynamic_color_no">Tidak</string>
+    <string name="feature_settings_dismiss_dialog_button_text">OK</string>
+    <string name="feature_settings_change_theme_text">Ubah Tema</string>
+    <string name="feature_settings_change_theme_placeholder_text">Ubah Tema</string>
+    <string name="feature_settings_change_language_text">Ubah Bahasa</string>
+    <string name="feature_settings_change_language_placeholder_text">Ubah Bahasa</string>
+    <string name="feature_settings_language_preference">Bahasa</string>
+</resources>
