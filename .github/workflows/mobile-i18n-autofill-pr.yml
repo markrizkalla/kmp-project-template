@@ -2,7 +2,7 @@ name: Mobile i18n Autofill (bot PR)
 
 on:
   pull_request:
-    branches: [development]
+    branches: [dev]
     paths:
       - 'cmp-android/**'
       - 'feature/**'
