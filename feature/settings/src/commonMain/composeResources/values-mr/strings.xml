@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2026 Mifos Initiative
+
+    This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
+    If a copy of the MPL was not distributed with this file,
+    You can obtain one at https://mozilla.org/MPL/2.0/.
+
+    See https://github.com/openMF/mobile-mobile/blob/master/LICENSE.md
+-->
+<resources>
+    <string name="feature_settings_top_app_bar_action_icon_description">सेटिंग्ज</string>
+    <string name="feature_settings_top_app_bar_navigation_icon_description">शोध</string>
+    <string name="feature_settings_title">सेटिंग्ज</string>
+    <string name="feature_settings_loading">लोड होत आहे...</string>
+    <string name="feature_settings_privacy_policy">गोपनीयता धोरण</string>
+    <string name="feature_settings_licenses">परवाने</string>
+    <string name="feature_settings_brand_guidelines">ब्रँड मार्गदर्शक तत्त्वे</string>
+    <string name="feature_settings_feedback">अभिप्राय</string>
+    <string name="feature_settings_theme">थीम</string>
+    <string name="feature_settings_brand_default">डीफॉल्ट</string>
+    <string name="feature_settings_brand_android">Android</string>
+    <string name="feature_settings_dark_mode_preference">डार्क मोड प्राधान्य</string>
+    <string name="feature_settings_dark_mode_config_system_default">सिस्टम डीफॉल्ट</string>
+    <string name="feature_settings_dark_mode_config_light">हलका</string>
+    <string name="feature_settings_dark_mode_config_dark">गडद</string>
+    <string name="feature_settings_dynamic_color_preference">डायनॅमिक रंग वापरा</string>
+    <string name="feature_settings_dynamic_color_yes">होय</string>
+    <string name="feature_settings_dynamic_color_no">नाही</string>
+    <string name="feature_settings_dismiss_dialog_button_text">ठीक आहे</string>
+    <string name="feature_settings_change_theme_text">थीम बदला</string>
+    <string name="feature_settings_change_theme_placeholder_text">थीम बदला</string>
+    <string name="feature_settings_change_language_text">भाषा बदला</string>
+    <string name="feature_settings_change_language_placeholder_text">भाषा बदला</string>
+    <string name="feature_settings_language_preference">भाषा</string>
+</resources>

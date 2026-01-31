@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2026 Mifos Initiative
+
+    This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
+    If a copy of the MPL was not distributed with this file,
+    You can obtain one at https://mozilla.org/MPL/2.0/.
+
+    See https://github.com/openMF/mobile-mobile/blob/master/LICENSE.md
+-->
+<resources>
+    <string name="app_name">AndroidApp</string>
+    <string name="home">ഹോം</string>
+    <string name="profile">പ്രൊഫൈൽ</string>
+    <string name="not_connected">⚠️ നിങ്ങൾക്ക് ഇന്റർനെറ്റിലേക്ക് കണക്റ്റ് ചെയ്യാൻ കഴിഞ്ഞില്ല</string>
+</resources>
