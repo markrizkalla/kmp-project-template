@@ -2,7 +2,7 @@ name: Mobile i18n Autofill (bot PR)
 
 on:
   pull_request:
-    branches: [development]
+    branches: [dev]
     paths:
       - 'cmp-android/**'
       - 'feature/**'
@@ -56,7 +56,6 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          # We use the defaults directly since workflow_dispatch is removed
           python translate.py \
             --mode apply \
             --locales "ar,bn,de,en,es,fa,fr,gu,hi,hu,id,km,kn,ml,mr,ms,my,pl,pt,ru,si,sw,te,ur" \
