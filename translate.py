@@ -849,6 +849,116 @@ def write_translations_full(
     )
 
 
+def _cleanup_orphaned_translations(
+    target_xml: Path,
+    source_resources: SourceResources,
+) -> int:
+    """
+    Remove entries from target file that no longer exist in source.
+    Returns count of removed entries.
+    """
+    if not target_xml.exists():
+        return 0
+
+    try:
+        tree = ET.parse(str(target_xml), parser=XML_PARSER)
+        root = tree.getroot()
+    except ET.XMLSyntaxError:
+        return 0
+
+    # Build set of all valid source names (by type)
+    source_string_keys: Set[str] = {e.key for e in source_resources.strings}
+    source_array_keys: Set[str] = {a.key for a in source_resources.string_arrays}
+    source_plural_keys: Set[str] = {p.key for p in source_resources.plurals}
+
+    # Also keep non-translatable strings (they might be in target legitimately)
+    # We only remove things that were translatable and are now gone
+
+    elements_to_remove: List[ET._Element] = []
+    removed_names: List[str] = []
+
+    for elem in list(root):
+        if is_comment(elem):
+            continue
+
+        name = elem.get("name")
+        if not name:
+            continue
+
+        if elem.tag == "string":
+            if name not in source_string_keys:
+                elements_to_remove.append(elem)
+                removed_names.append(f"string:{name}")
+
+        elif elem.tag == "string-array":
+            if name not in source_array_keys:
+                elements_to_remove.append(elem)
+                removed_names.append(f"string-array:{name}")
+
+        elif elem.tag == "plurals":
+            if name not in source_plural_keys:
+                elements_to_remove.append(elem)
+                removed_names.append(f"plurals:{name}")
+
+    if not elements_to_remove:
+        return 0
+
+    # Remove orphaned elements
+    for elem in elements_to_remove:
+        _remove_element_and_orphaned_comments(root, elem)
+
+    children = list(root)
+    if children:
+        for child in reversed(children):
+            if not is_comment(child):
+                if not child.tail or not child.tail.endswith("\n"):
+                    child.tail = "\n"
+                break
+
+    # Write back
+    ET.cleanup_namespaces(root)
+    tree = ET.ElementTree(root)
+    tree.write(
+        str(target_xml),
+        encoding="utf-8",
+        xml_declaration=True,
+        pretty_print=False,
+    )
+    _fix_xliff_namespaces_in_file(target_xml)
+
+    for name in removed_names:
+        logger.info(f"    ✕ Removed orphaned: {name}")
+
+    return len(elements_to_remove)
+
+def _remove_element_and_orphaned_comments(
+    root: ET._Element, elem: ET._Element
+) -> None:
+    """
+    Remove element AND any preceding comments that would become orphaned.
+
+    Example: if removing the last string under <!-- Section --> comment,
+    remove the comment too.
+    """
+    parent = elem.getparent()
+    if parent is None:
+        return
+
+    # Check if previous sibling is a comment
+    prev = elem.getprevious()
+
+    # First remove the element itself
+    _remove_element_preserve_whitespace(root, elem)
+
+    # Now check if the previous comment is orphaned
+    # (no non-comment siblings follow it)
+    if prev is not None and is_comment(prev):
+        # Look at what follows the comment now
+        next_sibling = prev.getnext()
+        if next_sibling is None or is_comment(next_sibling):
+            # Comment has no resource elements after it — orphaned
+            _remove_element_preserve_whitespace(root, prev)
+
 def _create_from_source_full(
     target_xml: Path,
     translations: Dict[str, str],
@@ -980,6 +1090,18 @@ def _fix_xliff_namespaces_in_file(target_xml: Path) -> None:
         '<?xml version="1.0" encoding="utf-8"?>',
         content
     )
+
+    content = re.sub(
+            r'(-->)\s*(<resources)',
+            r'\1\n\2',
+            content
+        )
+
+    content = re.sub(
+            r'(\?>)\s*(<resources)',
+            r'\1\n\2',
+            content
+        )
 
     # Copyright header template
     copyright_header = '''<!--
@@ -1352,6 +1474,7 @@ def _insert_at_source_position(
             ref_elem = existing_plurals.get(future_name)
 
         if ref_elem is not None:
+            new_elem.tail = "\n    "
             ref_elem.addprevious(new_elem)
             return
 
@@ -1366,10 +1489,38 @@ def _insert_at_source_position(
             ref_elem = existing_plurals.get(past_name)
 
         if ref_elem is not None:
+            new_elem.tail = ref_elem.tail
+            ref_elem.tail = "\n    "
             ref_elem.addnext(new_elem)
             return
 
     # Nothing found, append at end
+    _append_with_indent(root, new_elem)
+
+def _append_with_indent(root: ET._Element, new_elem: ET._Element) -> None:
+    """Append element to root with proper indentation."""
+    children = list(root)
+    if children:
+        # Find last non-comment child
+        last_child = None
+        for child in reversed(children):
+            if not is_comment(child):
+                last_child = child
+                break
+
+        if last_child is not None:
+            # Transfer end spacing (e.g., "\n") to new element
+            new_elem.tail = last_child.tail
+            # Set proper indentation before new element
+            last_child.tail = "\n    "
+        else:
+            new_elem.tail = "\n"
+    else:
+        # First child
+        if not root.text or not root.text.strip() == "":
+            root.text = "\n    "
+        new_elem.tail = "\n"
+
     root.append(new_elem)
 
 # ============================================================================
@@ -1652,6 +1803,11 @@ def process_locale(
         logger.warning(f"No translatable strings in {source_xml}")
         return result
 
+    # ── Cleanup orphaned translations (apply mode only) ────────
+    if config.mode == "apply":
+        removed_count = _cleanup_orphaned_translations(target_xml, source_resources)
+        if removed_count > 0:
+            logger.info(f"  [{locale}] Removed {removed_count} orphaned translation(s)")
 
     all_flat = source_resources.all_flat_entries()
     all_flat_keys = {e.key for e in all_flat}
