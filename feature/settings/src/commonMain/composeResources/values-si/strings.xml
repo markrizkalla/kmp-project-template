@@ -7,8 +7,7 @@
     You can obtain one at https://mozilla.org/MPL/2.0/.
 
     See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
--->
-<resources>
+--><resources>
     <string name="feature_settings_top_app_bar_action_icon_description">පහසුකම්</string>
     <string name="feature_settings_top_app_bar_navigation_icon_description">ගවේෂණය</string>
     <string name="feature_settings_title">පහසුකම්</string>
@@ -33,4 +32,43 @@
     <string name="feature_settings_change_language_text">භාෂාව වෙනස් කරන්න</string>
     <string name="feature_settings_change_language_placeholder_text">භාෂාව වෙනස් කරන්න</string>
     <string name="feature_settings_language_preference">භාෂාව</string>
+<string name="app_name">Mifos Mobile</string>
+    <string name="account_overview">සංඛ්‍යා පරීක්ෂණය</string>
+    <string name="welcome_message">ආපසු සාදරයෙන් පිළිගන්නවා, %1$s!</string>
+    <string name="balance_format">බරපත: %1$s %2$s</string>
+    <string name="terms_notice">ඔබ ඉදිරියට යාමෙන් අපගේ <b>සේවා නියමයන්</b> සහ <i>ගෝප්‍යතා ප්‍රතිපත්තිය</i> වලට එකඟ වන බවට අනුමැතිය ලබා දෙන්න.</string>
+    <string-array name="account_types">
+        <item>මුදල ඉතුරු කිරීමේ ගිණුම</item>
+        <item>වත්මන් ගිණුම</item>
+        <item>ස්ථිර තැන්පතු</item>
+        <item>පරිවර්තන තැන්පතු</item>
+    </string-array>
+
+    <string-array name="transaction_filters">
+        <item>සියලු ගනුදෙනු</item>
+        <item>ණය පමණක්</item>
+        <item>ණය පමණක්</item>
+        <item>පාරිභෝග</item>
+        <item>වෙච්චි 7 දින</item>
+        <item>වෙච්චි 30 දින</item>
+    </string-array>
+
+    <plurals name="accounts_count">
+        <item quantity="one">%d ගිණුමක්</item>
+        <item quantity="other">%d ගිණුම්</item>
+    </plurals>
+
+    <plurals name="transactions_found">
+        <item quantity="one">%d ගනුදෙනුවක් හමුවී ඇත</item>
+        <item quantity="other">%d ගනුදෙනු හමුවී ඇත</item>
+    </plurals>
+
+    <plurals name="days_remaining">
+        <item quantity="one">%d දිනයක් ඉතිරිව ඇත</item>
+        <item quantity="other">%d දින ඉතිරිව ඇත</item>
+    </plurals>
+
+    <string name="empty_state">ඔබට තවමත් කිසිදු ගිණුමක් නැත.\nඑකක් නිර්මාණය කිරීමට + මත තට්ටු කරන්න.</string>
+    <string name="percent_format" formatted="false">ප්‍රතිකාර කිරීමේ 50% ක් අවසන් විය</string>
+    <string name="at_symbol">\@username_required</string>
 </resources>

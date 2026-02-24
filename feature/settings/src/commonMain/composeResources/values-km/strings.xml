@@ -7,8 +7,7 @@
     You can obtain one at https://mozilla.org/MPL/2.0/.
 
     See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
--->
-<resources>
+--><resources>
     <string name="feature_settings_top_app_bar_action_icon_description">ការកំណត់</string>
     <string name="feature_settings_top_app_bar_navigation_icon_description">ស្វែងរក</string>
     <string name="feature_settings_title">ការកំណត់</string>
@@ -33,4 +32,43 @@
     <string name="feature_settings_change_language_text">ផ្លាស់ប្តូរភាសា</string>
     <string name="feature_settings_change_language_placeholder_text">ផ្លាស់ប្តូរភាសា</string>
     <string name="feature_settings_language_preference">ភាសា</string>
+<string name="app_name">Mifos Mobile</string>
+    <string name="account_overview">ទិដ្ឋភាពគណនី</string>
+    <string name="welcome_message">សូមស្វាគមន៍មកវិញ, %1$s!</string>
+    <string name="balance_format">សមតុល្យ: %1$s %2$s</string>
+    <string name="terms_notice">ដោយបន្តតទៅ អ្នកយល់ព្រមទៅនឹង <b>លក្ខ័ណ្ឌនៃការប្រើប្រាស់</b> និង <i>គោលការណ៍ភាពជាសំរែត</i></string>
+    <string-array name="account_types">
+        <item>គណនីសន្សំ</item>
+        <item>គណនីបច្ចុប្បន្ន</item>
+        <item>បញ្ញើទុករយៈពេល</item>
+        <item>បញ្ញើទុកទៀងទាត់</item>
+    </string-array>
+
+    <string-array name="transaction_filters">
+        <item>ប្រតិបត្តិការទាំងអស់</item>
+        <item>ឥណទានប៉ុណ្ណោះ</item>
+        <item>ដកប្រាក់ប៉ុណ្ណោះ</item>
+        <item>ការផ្ទេរ</item>
+        <item>៧ថ្ងៃចុងក្រោយ</item>
+        <item>៣០ថ្ងៃចុងក្រោយ</item>
+    </string-array>
+
+    <plurals name="accounts_count">
+        <item quantity="one">%d គណនី</item>
+        <item quantity="other">%d គណនី</item>
+    </plurals>
+
+    <plurals name="transactions_found">
+        <item quantity="one">បានរកឃើញ %d ប្រតិបត្តិការ</item>
+        <item quantity="other">បានរកឃើញ %d ប្រតិបត្តិការ</item>
+    </plurals>
+
+    <plurals name="days_remaining">
+        <item quantity="one">នៅសល់ %d ថ្ងៃ</item>
+        <item quantity="other">នៅសល់ %d ថ្ងៃ</item>
+    </plurals>
+
+    <string name="empty_state">អ្នកមិនទាន់មានគណនីណាមួយនៅឡើយទេ។\nចុច + ដើម្បីបង្កើតមួយ។</string>
+    <string name="percent_format" formatted="false">ដំណើរការចប់ 50%</string>
+    <string name="at_symbol">\@username_required</string>
 </resources>

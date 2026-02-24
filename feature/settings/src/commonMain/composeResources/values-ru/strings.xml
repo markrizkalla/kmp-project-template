@@ -7,8 +7,7 @@
     You can obtain one at https://mozilla.org/MPL/2.0/.
 
     See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
--->
-<resources>
+--><resources>
     <string name="feature_settings_top_app_bar_action_icon_description">Настройки</string>
     <string name="feature_settings_top_app_bar_navigation_icon_description">Поиск</string>
     <string name="feature_settings_title">Настройки</string>
@@ -33,4 +32,43 @@
     <string name="feature_settings_change_language_text">Изменить язык</string>
     <string name="feature_settings_change_language_placeholder_text">Изменить язык</string>
     <string name="feature_settings_language_preference">Язык</string>
+<string name="app_name">Mifos Mobile</string>
+    <string name="account_overview">Обзор счета</string>
+    <string name="welcome_message">Добро пожаловать, %1$s!</string>
+    <string name="balance_format">Баланс: %1$s %2$s</string>
+    <string name="terms_notice">Продолжая, вы соглашаетесь с нашими <b>Условиями обслуживания</b> и <i>Политикой конфиденциальности</i></string>
+    <string-array name="account_types">
+        <item>Сберегательный счет</item>
+        <item>Текущий счет</item>
+        <item>Депозит на определенный срок</item>
+        <item>Накопительный депозит</item>
+    </string-array>
+
+    <string-array name="transaction_filters">
+        <item>Все транзакции</item>
+        <item>Только кредиты</item>
+        <item>Только дебеты</item>
+        <item>Переводы</item>
+        <item>Последние 7 дней</item>
+        <item>Последние 30 дней</item>
+    </string-array>
+
+    <plurals name="accounts_count">
+        <item quantity="one">%d счет</item>
+        <item quantity="other">%d счета</item>
+    </plurals>
+
+    <plurals name="transactions_found">
+        <item quantity="one">Найдена %d транзакция</item>
+        <item quantity="other">Найдено %d транзакций</item>
+    </plurals>
+
+    <plurals name="days_remaining">
+        <item quantity="one">Остался %d день</item>
+        <item quantity="other">Осталось %d дней</item>
+    </plurals>
+
+    <string name="empty_state">У вас пока нет ни одного счета.\nНажмите + для создания.</string>
+    <string name="percent_format" formatted="false">Выполнено 50%</string>
+    <string name="at_symbol">\@username_required</string>
 </resources>

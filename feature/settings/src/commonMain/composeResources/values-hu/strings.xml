@@ -7,8 +7,7 @@
     You can obtain one at https://mozilla.org/MPL/2.0/.
 
     See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
--->
-<resources>
+--><resources>
     <string name="feature_settings_top_app_bar_action_icon_description">Beállítások</string>
     <string name="feature_settings_top_app_bar_navigation_icon_description">Keresés</string>
     <string name="feature_settings_title">Beállítások</string>
@@ -33,4 +32,43 @@
     <string name="feature_settings_change_language_text">Nyelv megváltoztatása</string>
     <string name="feature_settings_change_language_placeholder_text">Nyelv megváltoztatása</string>
     <string name="feature_settings_language_preference">Nyelv</string>
+<string name="app_name">Mifos Mobile</string>
+    <string name="account_overview">Számlaközpont</string>
+    <string name="welcome_message">Üdvözöljük vissza, %1$s!</string>
+    <string name="balance_format">Egyenleg: %1$s %2$s</string>
+    <string name="terms_notice">A folytatás megkezdésével elfogadja a <b>Szolgáltatási Feltételeinket</b> és a <i>Adatvédelmi Szabályzatunkat</i></string>
+    <string-array name="account_types">
+        <item>Megtakarítási számla</item>
+        <item>Folyamatos számla</item>
+        <item>Határozott idejű betét</item>
+        <item>Rendszeres betét</item>
+    </string-array>
+
+    <string-array name="transaction_filters">
+        <item>Összes tranzakció</item>
+        <item>Csak jóváírások</item>
+        <item>Csak terhelések</item>
+        <item>Utalások</item>
+        <item>Az elmúlt 7 nap</item>
+        <item>Az elmúlt 30 nap</item>
+    </string-array>
+
+    <plurals name="accounts_count">
+        <item quantity="one">%d számla</item>
+        <item quantity="other">%d számlák</item>
+    </plurals>
+
+    <plurals name="transactions_found">
+        <item quantity="one">%d tranzakció található</item>
+        <item quantity="other">%d tranzakció található</item>
+    </plurals>
+
+    <plurals name="days_remaining">
+        <item quantity="one">%d nap marad</item>
+        <item quantity="other">%d nap marad</item>
+    </plurals>
+
+    <string name="empty_state">Még nincs számlája.\nÉrintse meg a + jelet az új számla létrehozásához.</string>
+    <string name="percent_format" formatted="false">A feldolgozás 50%-ban kész</string>
+    <string name="at_symbol">\@username_required</string>
 </resources>

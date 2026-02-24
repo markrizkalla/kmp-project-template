@@ -7,8 +7,7 @@
     You can obtain one at https://mozilla.org/MPL/2.0/.
 
     See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
--->
-<resources>
+--><resources>
     <string name="feature_settings_top_app_bar_action_icon_description">ക്രമീകരണങ്ങൾ</string>
     <string name="feature_settings_top_app_bar_navigation_icon_description">തിരയുക</string>
     <string name="feature_settings_title">ക്രമീകരണങ്ങൾ</string>
@@ -33,4 +32,43 @@
     <string name="feature_settings_change_language_text">ഭാഷ മാറ്റുക</string>
     <string name="feature_settings_change_language_placeholder_text">ഭാഷ മാറ്റുക</string>
     <string name="feature_settings_language_preference">ഭാഷ</string>
+<string name="app_name">Mifos Mobile</string>
+    <string name="account_overview">അക്കൗണ്ട് അവലോകനം</string>
+    <string name="welcome_message">തിരിച്ചുവന്നതിന് സ്വാഗതം, %1$s!</string>
+    <string name="balance_format">സ്ഥിതി: %1$s %2$s</string>
+    <string name="terms_notice">തുടരുന്നത് വഴി നിങ്ങൾ ഞങ്ങളുടെ <b> സേവന നിബന്ധനകൾ</b>  և  <i>സ്വകാര്യതാ നയം</i> അംഗീകരിക്കുന്നു.</string>
+    <string-array name="account_types">
+        <item>സേവിംഗ്സ് അക്കൗണ്ട്</item>
+        <item>കറന്റ് അക്കൗണ്ട്</item>
+        <item>സ്ഥിര നിക്ഷേപം</item>
+        <item>ആവർത്തന നിക്ഷേപം</item>
+    </string-array>
+
+    <string-array name="transaction_filters">
+        <item>എല്ലാ ഇടപാടുകളും</item>
+        <item>ക്രെഡിറ്റുകൾ മാത്രം</item>
+        <item>ഡെബിറ്റുകൾ മാത്രം</item>
+        <item> കൈമാറ്റങ്ങൾ</item>
+        <item>കഴിഞ്ഞ 7 ദിവസം</item>
+        <item>കഴിഞ്ഞ 30 ദിവസം</item>
+    </string-array>
+
+    <plurals name="accounts_count">
+        <item quantity="one">%d അക്കൗണ്ട്</item>
+        <item quantity="other">%d അക്കൗണ്ടുകൾ</item>
+    </plurals>
+
+    <plurals name="transactions_found">
+        <item quantity="one">%d ഇടപാട് കണ്ടെത്തി</item>
+        <item quantity="other">%d ഇടപാടുകൾ കണ്ടെത്തി</item>
+    </plurals>
+
+    <plurals name="days_remaining">
+        <item quantity="one">%d ദിവസം ബാക്കി</item>
+        <item quantity="other">%d ദിവസങ്ങൾ ബാക്കി</item>
+    </plurals>
+
+    <string name="empty_state">നിങ്ങൾക്ക് ഇതുവരെ അക്കൗണ്ടുകൾ ഇല്ല.\nഒന്ന് ഉണ്ടാക്കാൻ + ടാപ്പ് ചെയ്യുക.</string>
+    <string name="percent_format" formatted="false">50% പ്രോസസ്സിംഗ് പൂർത്തിയായി</string>
+    <string name="at_symbol">\@username_required</string>
 </resources>

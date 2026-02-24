@@ -7,8 +7,7 @@
     You can obtain one at https://mozilla.org/MPL/2.0/.
 
     See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
--->
-<resources>
+--><resources>
     <string name="feature_settings_top_app_bar_action_icon_description">సెట్టింగ్‌లు</string>
     <string name="feature_settings_top_app_bar_navigation_icon_description">వెతకండి</string>
     <string name="feature_settings_title">సెట్టింగ్‌లు</string>
@@ -33,4 +32,43 @@
     <string name="feature_settings_change_language_text">భాష మార్చండి</string>
     <string name="feature_settings_change_language_placeholder_text">భాష మార్చండి</string>
     <string name="feature_settings_language_preference">భాష</string>
+<string name="app_name">Mifos Mobile</string>
+    <string name="account_overview">ఖాతా అవలోకనం</string>
+    <string name="welcome_message">తిరిగి వచ్చినందుకు స్వాగతం, %1$s!</string>
+    <string name="balance_format">బ్యాలెన్స్: %1$s %2$s</string>
+    <string name="terms_notice">కొనసాగించడం ద్వారా మీరు మా <b>సేవల నిబంధనలు</b> మరియు <i>గోప్యతా విధానం</i> అంగీకరిస్తున్నారు</string>
+    <string-array name="account_types">
+        <item>పొదుపు ఖాతా</item>
+        <item>కరెంట్ ఖాతా</item>
+        <item>స్థిర డిపాజిట్</item>
+        <item>పునరావృత డిపాజిట్</item>
+    </string-array>
+
+    <string-array name="transaction_filters">
+        <item>అన్ని లావాదేవీలు</item>
+        <item>క్రెడిట్‌లు మాత్రమే</item>
+        <item>డెబిట్‌లు మాత్రమే</item>
+        <item>బదిలీలు</item>
+        <item>గత 7 రోజులు</item>
+        <item>గత 30 రోజులు</item>
+    </string-array>
+
+    <plurals name="accounts_count">
+        <item quantity="one">%d ఖాతా</item>
+        <item quantity="other">%d ఖాతాలు</item>
+    </plurals>
+
+    <plurals name="transactions_found">
+        <item quantity="one">%d లావాదేవీ కనుగొనబడింది</item>
+        <item quantity="other">%d లావాదేవీలు కనుగొనబడ్డాయి</item>
+    </plurals>
+
+    <plurals name="days_remaining">
+        <item quantity="one">%d రోజు మిగిలి ఉంది</item>
+        <item quantity="other">%d రోజులు మిగిలి ఉన్నాయి</item>
+    </plurals>
+
+    <string name="empty_state">మీకు ఇంకా ఖాతాలు లేవు.\nఒకటి సృష్టించడానికి + నొక్కండి.</string>
+    <string name="percent_format" formatted="false">50% ప్రాసెసింగ్ పూర్తయింది</string>
+    <string name="at_symbol">\@username_required</string>
 </resources>

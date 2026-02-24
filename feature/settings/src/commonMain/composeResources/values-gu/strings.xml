@@ -7,8 +7,7 @@
     You can obtain one at https://mozilla.org/MPL/2.0/.
 
     See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
--->
-<resources>
+--><resources>
     <string name="feature_settings_top_app_bar_action_icon_description">સેટિંગ્સ</string>
     <string name="feature_settings_top_app_bar_navigation_icon_description">શોધ</string>
     <string name="feature_settings_title">સેટિંગ્સ</string>
@@ -33,4 +32,43 @@
     <string name="feature_settings_change_language_text">ભાષા બદલો</string>
     <string name="feature_settings_change_language_placeholder_text">ભાષા બદલો</string>
     <string name="feature_settings_language_preference">ભાષા</string>
+<string name="app_name">Mifos Mobile</string>
+    <string name="account_overview">એકાઉન્ટ વિહંગાવલોકન</string>
+    <string name="welcome_message">ફરીથી આપનું સ્વાગત છે, %1$s!</string>
+    <string name="balance_format">બેલેન્સ: %1$s %2$s</string>
+    <string name="terms_notice">ચાલુ રાખીને તમે અમારા <b>સેવાની શરતો</b> અને <i>ગોપનીયતા નીતિ</i> સાથે સંમત થાઓ છો</string>
+    <string-array name="account_types">
+        <item>બચત ખાતું</item>
+        <item>ચાલુ ખાતું</item>
+        <item>ફિક્સ્ડ ડિપોઝિટ</item>
+        <item>રિકરિંગ ડિપોઝિટ</item>
+    </string-array>
+
+    <string-array name="transaction_filters">
+        <item>તમામ વ્યવહારો</item>
+        <item>માત્ર ક્રેડિટ</item>
+        <item>માત્ર ડેબિટ</item>
+        <item>ટ્રાન્સફર</item>
+        <item>છેલ્લા 7 દિવસ</item>
+        <item>છેલ્લા 30 દિવસ</item>
+    </string-array>
+
+    <plurals name="accounts_count">
+        <item quantity="one">%d એકાઉન્ટ</item>
+        <item quantity="other">%d એકાઉન્ટ્સ</item>
+    </plurals>
+
+    <plurals name="transactions_found">
+        <item quantity="one">%d વ્યવહાર મળ્યો</item>
+        <item quantity="other">%d વ્યવહારો મળ્યા</item>
+    </plurals>
+
+    <plurals name="days_remaining">
+        <item quantity="one">%d દિવસ બાકી છે</item>
+        <item quantity="other">%d દિવસો બાકી છે</item>
+    </plurals>
+
+    <string name="empty_state">તમારી પાસે હજી કોઈ એકાઉન્ટ નથી.\nએક બનાવવા માટે + પર ટેપ કરો.</string>
+    <string name="percent_format" formatted="false">પ્રોસેસિંગ 50% પૂર્ણ થયું</string>
+    <string name="at_symbol">\@username_required</string>
 </resources>

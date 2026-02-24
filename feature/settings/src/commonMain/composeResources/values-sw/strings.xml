@@ -7,8 +7,7 @@
     You can obtain one at https://mozilla.org/MPL/2.0/.
 
     See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
--->
-<resources>
+--><resources>
     <string name="feature_settings_top_app_bar_action_icon_description">Mazingira</string>
     <string name="feature_settings_top_app_bar_navigation_icon_description">Tafuta</string>
     <string name="feature_settings_title">Mazingira</string>
@@ -33,4 +32,43 @@
     <string name="feature_settings_change_language_text">Badilisha Lugha</string>
     <string name="feature_settings_change_language_placeholder_text">Badilisha Lugha</string>
     <string name="feature_settings_language_preference">Lugha</string>
+<string name="app_name">Mifos Mobile</string>
+    <string name="account_overview">Muhtasari wa Akaunti</string>
+    <string name="welcome_message">Karibu tena, %1$s!</string>
+    <string name="balance_format">Salio: %1$s %2$s</string>
+    <string name="terms_notice">Kwa kuendelea unakubali <b>Masharti ya Huduma</b> na <i>Sera ya Faragha</i></string>
+    <string-array name="account_types">
+        <item>Akaunti ya Kuokoa</item>
+        <item>Akaunti ya Sasa</item>
+        <item>Amana ya Kudumu</item>
+        <item>Amana ya Kurudia</item>
+    </string-array>
+
+    <string-array name="transaction_filters">
+        <item>Manunuzi Yote</item>
+        <item>Mikopo Tu</item>
+        <item>Madeni Tu</item>
+        <item>Hamisho</item>
+        <item>Siku 7 Zilizopita</item>
+        <item>Siku 30 Zilizopita</item>
+    </string-array>
+
+    <plurals name="accounts_count">
+        <item quantity="one">%d akaunti</item>
+        <item quantity="other">%d akaunti</item>
+    </plurals>
+
+    <plurals name="transactions_found">
+        <item quantity="one">%d muamala umebainika</item>
+        <item quantity="other">%d muamala umebainika</item>
+    </plurals>
+
+    <plurals name="days_remaining">
+        <item quantity="one">%d siku imebaki</item>
+        <item quantity="other">%d siku zimebaki</item>
+    </plurals>
+
+    <string name="empty_state">Huna akaunti zozote bado.\nGusa + ili kuunda moja.</string>
+    <string name="percent_format" formatted="false">Uchakataji umekamilika 50%</string>
+    <string name="at_symbol">\@username_required</string>
 </resources>

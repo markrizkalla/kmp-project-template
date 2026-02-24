@@ -7,8 +7,7 @@
     You can obtain one at https://mozilla.org/MPL/2.0/.
 
     See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
--->
-<resources>
+--><resources>
     <string name="feature_settings_top_app_bar_action_icon_description">ಅಂ settings</string>
     <string name="feature_settings_top_app_bar_navigation_icon_description">ಹುಡುಕಾಟ</string>
     <string name="feature_settings_title">ಅಂ settings</string>
@@ -33,4 +32,43 @@
     <string name="feature_settings_change_language_text">ಭಾಷೆ ಬದಲಾಯಿಸಿ</string>
     <string name="feature_settings_change_language_placeholder_text">ಭಾಷೆ ಬದಲಾಯಿಸಿ</string>
     <string name="feature_settings_language_preference">ಭಾಷೆ</string>
+<string name="app_name">ಮಿಫೋಸ್ ಮೊಬೈಲ್</string>
+    <string name="account_overview">ಖಾತೆ ಅವಲೋಕನ</string>
+    <string name="welcome_message">ಮತ್ತೆ ಸ್ವಾಗತ, %1$s!</string>
+    <string name="balance_format">ಬ್ಯಾಲೆನ್ಸ್: %1$s %2$s</string>
+    <string name="terms_notice">ಮುಂದುವರಿಯುವ ಮೂಲಕ ನೀವು ನಮ್ಮ <b>ಸೇವಾ ನಿಯಮಗಳು</b> ಮತ್ತು <i>ಗೋಪ್ಯತಾ ನೀತಿ</i> ಗೆ ಒಪ್ಪುತ್ತೀರಿ</string>
+    <string-array name="account_types">
+        <item>ಉಳಿತಾಂಶ ಖಾತೆ</item>
+        <item>ಚಾಲ್ತಿ ಖಾತೆ</item>
+        <item>ಸ್ಥಿರ ಠೇವಣಿ</item>
+        <item>ಮಾಸಿಕ ಠೇವಣಿ</item>
+    </string-array>
+
+    <string-array name="transaction_filters">
+        <item>ಎಲ್ಲಾ ವ್ಯವಹಾರಗಳು</item>
+        <item>ಕ್ರೆಡಿಟ್‌ಗಳು ಮಾತ್ರ</item>
+        <item>ಡೆಬಿಟ್‌ಗಳು ಮಾತ್ರ</item>
+        <item>ವರ್ಗಾವಣೆಗಳು</item>
+        <item>ಕಳೆದ 7 ದಿನಗಳು</item>
+        <item>ಕಳೆದ 30 ದಿನಗಳು</item>
+    </string-array>
+
+    <plurals name="accounts_count">
+        <item quantity="one">%d ಖಾತೆ</item>
+        <item quantity="other">%d ಖಾತೆಗಳು</item>
+    </plurals>
+
+    <plurals name="transactions_found">
+        <item quantity="one">%d ವ್ಯವಹಾರ ಕಂಡುಬಂದಿದೆ</item>
+        <item quantity="other">%d ವ್ಯವಹಾರಗಳು ಕಂಡುಬಂದಿವೆ</item>
+    </plurals>
+
+    <plurals name="days_remaining">
+        <item quantity="one">%d ದಿನ ಉಳಿದಿದೆ</item>
+        <item quantity="other">%d ದಿನಗಳು ಉಳಿದಿವೆ</item>
+    </plurals>
+
+    <string name="empty_state">ನೀವು ಇನ್ನೂ ಯಾವುದೇ ಖಾತೆಗಳನ್ನು ಹೊಂದಿಲ್ಲ.\nಒಂದು ರಚಿಸಲು + ಅನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ.</string>
+    <string name="percent_format" formatted="false">50% ಪ್ರಕ್ರಿಯೆ ಪೂರ್ಣಗೊಂಡಿದೆ</string>
+    <string name="at_symbol">\@username_required</string>
 </resources>

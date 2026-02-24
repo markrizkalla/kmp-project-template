@@ -7,8 +7,7 @@
     You can obtain one at https://mozilla.org/MPL/2.0/.
 
     See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
--->
-<resources>
+--><resources>
     <string name="feature_settings_top_app_bar_action_icon_description">सेटिंग्ज</string>
     <string name="feature_settings_top_app_bar_navigation_icon_description">शोध</string>
     <string name="feature_settings_title">सेटिंग्ज</string>
@@ -33,4 +32,43 @@
     <string name="feature_settings_change_language_text">भाषा बदला</string>
     <string name="feature_settings_change_language_placeholder_text">भाषा बदला</string>
     <string name="feature_settings_language_preference">भाषा</string>
+<string name="app_name">Mifos Mobile</string>
+    <string name="account_overview">खात्याचा आढावा</string>
+    <string name="welcome_message">तुमचे स्वागत आहे, %1$s!</string>
+    <string name="balance_format">शिल्लक: %1$s %2$s</string>
+    <string name="terms_notice">पुढे चालू ठेवल्यास तुम्ही आमच्या <b>सेवा अटी</b> आणि <i>गोपनीयता धोरण</i> मान्य करता.</string>
+    <string-array name="account_types">
+        <item>बचत खाते</item>
+        <item>चालू खाते</item>
+        <item>मुदत ठेव</item>
+        <item>आवर्ती ठेव</item>
+    </string-array>
+
+    <string-array name="transaction_filters">
+        <item>सर्व व्यवहार</item>
+        <item>फक्त क्रेडिट</item>
+        <item>फक्त डेबिट</item>
+        <item>हवालें</item>
+        <item>मागील ७ दिवस</item>
+        <item>मागील ३० दिवस</item>
+    </string-array>
+
+    <plurals name="accounts_count">
+        <item quantity="one">%d खाते</item>
+        <item quantity="other">%d खाती</item>
+    </plurals>
+
+    <plurals name="transactions_found">
+        <item quantity="one">%d व्यवहार आढळला</item>
+        <item quantity="other">%d व्यवहार आढळले</item>
+    </plurals>
+
+    <plurals name="days_remaining">
+        <item quantity="one">%d दिवस शिल्लक आहे</item>
+        <item quantity="other">%d दिवस शिल्लक आहेत</item>
+    </plurals>
+
+    <string name="empty_state">तुमच्याकडे अद्याप कोणतेही खाते नाही.\nनवीन खाते तयार करण्यासाठी + वर टॅप करा.</string>
+    <string name="percent_format" formatted="false">प्रक्रिया 50% पूर्ण झाली</string>
+    <string name="at_symbol">\@username_required</string>
 </resources>

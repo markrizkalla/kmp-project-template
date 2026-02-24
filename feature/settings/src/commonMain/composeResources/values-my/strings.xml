@@ -7,8 +7,7 @@
     You can obtain one at https://mozilla.org/MPL/2.0/.
 
     See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
--->
-<resources>
+--><resources>
     <string name="feature_settings_top_app_bar_action_icon_description">Settings</string>
     <string name="feature_settings_top_app_bar_navigation_icon_description">Search</string>
     <string name="feature_settings_title">Settings</string>
@@ -33,4 +32,43 @@
     <string name="feature_settings_change_language_text">ဘာသာစကား ပြောင်းပါ</string>
     <string name="feature_settings_change_language_placeholder_text">ဘာသာစကား ပြောင်းပါ</string>
     <string name="feature_settings_language_preference">ဘာသာစကား</string>
+<string name="app_name">Mifos Mobile</string>
+    <string name="account_overview">အကောင့်အကျဉ်းချုပ်</string>
+    <string name="welcome_message">ပြန်လည်ကြိုဆိုပါသည်၊ %1$s!</string>
+    <string name="balance_format">လက်ကျန်ငွေ: %1$s %2$s</string>
+    <string name="terms_notice">ဆက်လက်အသုံးပြုခြင်းဖြင့် ကျွန်ုပ်တို့၏ <b>ဝန်ဆောင်မှုစည်းမျဉ်း</b> နှင့် <i>ကိုယ်ပိုင်အချက်အလက်မူဝါဒ</i> တို့ကို သဘောတူကြောင်း အသိအမှတ်ပြုပါသည်။</string>
+    <string-array name="account_types">
+        <item>ငွေစုအကောင့်</item>
+        <item>လက်ခံအကောင့်</item>
+        <item>သေတ္တာအပ်ငွေ</item>
+        <item>အကြိမ်ကြိမ်အပ်ငွေ</item>
+    </string-array>
+
+    <string-array name="transaction_filters">
+        <item>အားလုံးသော লেনদেন</item>
+        <item>ငွေဝင် صرف</item>
+        <item>ငွေထွက် صرف</item>
+        <item>လွှဲပြောင်းမှုများ</item>
+        <item>ပြီးခဲ့သည့် ၇ ရက်</item>
+        <item>ပြီးခဲ့သည့် ၃၀ ရက်</item>
+    </string-array>
+
+    <plurals name="accounts_count">
+        <item quantity="one">%d ဘဏ်စာရင်း</item>
+        <item quantity="other">%d ဘဏ်စာရင်းများ</item>
+    </plurals>
+
+    <plurals name="transactions_found">
+        <item quantity="one">%d လွှဲပြောင်းမှုတစ်ခု တွေ့ရှိရသည်</item>
+        <item quantity="other">%d လွှဲပြောင်းမှုများ တွေ့ရှိရသည်</item>
+    </plurals>
+
+    <plurals name="days_remaining">
+        <item quantity="one">%d ရက် ကျန်ရှိသေးသည်</item>
+        <item quantity="other">%d ရက် ကျန်ရှိသေးသည်</item>
+    </plurals>
+
+    <string name="empty_state">သင့်တွင် အကောင့်မရှိသေးပါ။\nအကောင့်တစ်ခုဖန်တီးရန် + ကိုနှိပ်ပါ။</string>
+    <string name="percent_format" formatted="false">လုပ်ဆောင်နေသည် ၅၀% ပြီးစီး</string>
+    <string name="at_symbol">\@username_required</string>
 </resources>

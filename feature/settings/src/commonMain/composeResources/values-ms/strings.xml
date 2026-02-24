@@ -7,8 +7,7 @@
     You can obtain one at https://mozilla.org/MPL/2.0/.
 
     See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
--->
-<resources>
+--><resources>
     <string name="feature_settings_top_app_bar_action_icon_description">Tetapan</string>
     <string name="feature_settings_top_app_bar_navigation_icon_description">Carian</string>
     <string name="feature_settings_title">Tetapan</string>
@@ -33,4 +32,43 @@
     <string name="feature_settings_change_language_text">Tukar Bahasa</string>
     <string name="feature_settings_change_language_placeholder_text">Tukar Bahasa</string>
     <string name="feature_settings_language_preference">Bahasa</string>
+<string name="app_name">Mifos Mobile</string>
+    <string name="account_overview">Gambaran Keseluruhan Akaun</string>
+    <string name="welcome_message">Selamat kembali, %1$s!</string>
+    <string name="balance_format">Baki: %1$s %2$s</string>
+    <string name="terms_notice">Dengan meneruskan, anda bersetuju dengan <b>Terma Perkhidmatan</b> dan <i>Dasar Privasi</i></string>
+    <string-array name="account_types">
+        <item>Akaun Simpanan</item>
+        <item>Akaun Semasa</item>
+        <item>Deposit Tetap</item>
+        <item>Deposit Berulang</item>
+    </string-array>
+
+    <string-array name="transaction_filters">
+        <item>Semua Urus Niaga</item>
+        <item>Kredit Sahaja</item>
+        <item>Debit Sahaja</item>
+        <item>Pemindahan</item>
+        <item>7 Hari Terakhir</item>
+        <item>30 Hari Terakhir</item>
+    </string-array>
+
+    <plurals name="accounts_count">
+        <item quantity="one">%d akaun</item>
+        <item quantity="other">%d akaun</item>
+    </plurals>
+
+    <plurals name="transactions_found">
+        <item quantity="one">%d transaksi ditemui</item>
+        <item quantity="other">%d transaksi ditemui</item>
+    </plurals>
+
+    <plurals name="days_remaining">
+        <item quantity="one">%d hari baki</item>
+        <item quantity="other">%d hari baki</item>
+    </plurals>
+
+    <string name="empty_state">Anda belum mempunyai sebarang akaun.\nKetuk + untuk mencipta satu.</string>
+    <string name="percent_format" formatted="false">Pemprosesan 50% selesai</string>
+    <string name="at_symbol">\@username_required</string>
 </resources>
