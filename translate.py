@@ -104,6 +104,8 @@ SNAPSHOT_DIR_NAME = ".translation_snapshots"
 PLACEHOLDER_PATTERNS = [
     r"%%",
     r"%n",
+    r"\\n",
+    r"\\t",
     r"%(?:\d+\$)?[-+# 0,(]*\d*(?:\.\d+)?[sdbBhHoOxXeEfgGaAcC]",
     r"%(?:\d+\$)?[-+# 0,(]*\d*(?:\.\d+)?t[HIklMSLNpzZsQBbhAaCYyjmdeRTrDFc]",
 ]
