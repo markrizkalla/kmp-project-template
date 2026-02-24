@@ -33,4 +33,55 @@
     <string name="feature_settings_change_language_text">Change Language</string>
     <string name="feature_settings_change_language_placeholder_text">Change Language</string>
     <string name="feature_settings_language_preference">Language</string>
+
+    <!-- Account Section -->
+    <string name="app_name">Mifos Mobile</string>
+    <string name="account_overview">Account Overview</string>
+    <string name="welcome_message">Welcome back, %1$s!</string>
+    <string name="balance_format">Balance: %1$s %2$s</string>
+
+    <!-- Non-translatable (should be skipped) -->
+    <string name="api_base_url" translatable="false">https://api.mifos.org</string>
+
+    <!-- With markup -->
+    <string name="terms_notice">By continuing you agree to our <b>Terms of Service</b> and <i>Privacy Policy</i></string>
+
+    <!-- String Arrays -->
+    <string-array name="account_types">
+        <item>Savings Account</item>
+        <item>Current Account</item>
+        <item>Fixed Deposit</item>
+        <item>Recurring Deposit</item>
+    </string-array>
+
+    <string-array name="transaction_filters">
+        <item>All Transactions</item>
+        <item>Credits Only</item>
+        <item>Debits Only</item>
+        <item>Transfers</item>
+        <item>Last 7 Days</item>
+        <item>Last 30 Days</item>
+    </string-array>
+
+    <!-- Plurals -->
+    <plurals name="accounts_count">
+        <item quantity="one">%d account</item>
+        <item quantity="other">%d accounts</item>
+    </plurals>
+
+    <plurals name="transactions_found">
+        <item quantity="one">%d transaction found</item>
+        <item quantity="other">%d transactions found</item>
+    </plurals>
+
+    <plurals name="days_remaining">
+        <item quantity="one">%d day remaining</item>
+        <item quantity="other">%d days remaining</item>
+    </plurals>
+
+    <!-- Edge cases -->
+    <string name="empty_state">You don\'t have any accounts yet.\nTap + to create one.</string>
+    <string name="percent_format" formatted="false">Processing 50% complete</string>
+    <string name="at_symbol">\@username_required</string>
+
 </resources>
