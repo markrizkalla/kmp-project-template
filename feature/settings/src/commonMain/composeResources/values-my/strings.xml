@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2026 Mifos Initiative
+
+    This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
+    If a copy of the MPL was not distributed with this file,
+    You can obtain one at https://mozilla.org/MPL/2.0/.
+
+    See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
+-->
+<resources>
+    <string name="feature_settings_top_app_bar_action_icon_description">Settings</string>
+    <string name="feature_settings_top_app_bar_navigation_icon_description">Search</string>
+    <string name="feature_settings_title">Settings</string>
+    <string name="feature_settings_loading">Loading…</string>
+    <string name="feature_settings_privacy_policy">Privacy policy</string>
+    <string name="feature_settings_licenses">Licenses</string>
+    <string name="feature_settings_brand_guidelines">Brand Guidelines</string>
+    <string name="feature_settings_feedback">Feedback</string>
+    <string name="feature_settings_theme">Theme</string>
+    <string name="feature_settings_brand_default">Default</string>
+    <string name="feature_settings_brand_android">Android</string>
+    <string name="feature_settings_dark_mode_preference">Dark mode preference</string>
+    <string name="feature_settings_dark_mode_config_system_default">System default</string>
+    <string name="feature_settings_dark_mode_config_light">Light</string>
+    <string name="feature_settings_dark_mode_config_dark">Dark</string>
+    <string name="feature_settings_dynamic_color_preference">အသုံးပြုရန် အရောင်ပြောင်းနိုင်သော</string>
+    <string name="feature_settings_dynamic_color_yes">ဟုတ်ကဲ့</string>
+    <string name="feature_settings_dynamic_color_no">မဟုတ်ပါ</string>
+    <string name="feature_settings_dismiss_dialog_button_text">အိုကေ</string>
+    <string name="feature_settings_change_theme_text">အကြောင်းအရာ ပြောင်းပါ</string>
+    <string name="feature_settings_test_added">ပြောင်းလဲသွားသည်</string>
+    <string name="feature_settings_change_theme_placeholder_text">အကြောင်းအရာ ပြောင်းပါ</string>
+    <string name="feature_settings_change_language_text">ဘာသာစကား ပြောင်းပါ</string>
+    <string name="feature_settings_change_language_placeholder_text">ဘာသာစကား ပြောင်းပါ</string>
+    <string name="feature_settings_language_preference">ဘာသာစကား</string>
+    <!-- String Arrays -->
+    <string-array name="account_types">
+        <item>ငွေစုစာရင်း</item>
+        <item>လက်ခံစာရင်း</item>
+        <item>သေတ္တာအပ်ငွေ</item>
+        <item>အကြိမ်ကြိမ်အပ်ငွေ</item>
+    </string-array>
+
+    <!-- Plurals -->
+    <plurals name="accounts_count">
+        <item quantity="one">%d စာရင်း</item>
+        <item quantity="other">%d ဘဏ်စာရင်းများ</item>
+    </plurals>
+
+</resources>

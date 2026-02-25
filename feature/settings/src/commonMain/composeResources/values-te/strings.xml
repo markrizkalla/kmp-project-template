@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2026 Mifos Initiative
+
+    This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
+    If a copy of the MPL was not distributed with this file,
+    You can obtain one at https://mozilla.org/MPL/2.0/.
+
+    See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
+-->
+<resources>
+    <string name="feature_settings_top_app_bar_action_icon_description">సెట్టింగ్‌లు</string>
+    <string name="feature_settings_top_app_bar_navigation_icon_description">వెతకండి</string>
+    <string name="feature_settings_title">సెట్టింగ్‌లు</string>
+    <string name="feature_settings_loading">లోడ్ అవుతోంది…</string>
+    <string name="feature_settings_privacy_policy">గోప్యతా విధానం</string>
+    <string name="feature_settings_licenses">లైసెన్సులు</string>
+    <string name="feature_settings_brand_guidelines">బ్రాండ్ మార్గదర్శకాలు</string>
+    <string name="feature_settings_feedback">అభిప్రాయం</string>
+    <string name="feature_settings_theme">థీమ్</string>
+    <string name="feature_settings_brand_default">డిఫాల్ట్</string>
+    <string name="feature_settings_brand_android">ఆండ్రాయిడ్</string>
+    <string name="feature_settings_dark_mode_preference">డార్క్ మోడ్ ప్రాధాన్యత</string>
+    <string name="feature_settings_dark_mode_config_system_default">సిస్టమ్ డిఫాల్ట్</string>
+    <string name="feature_settings_dark_mode_config_light">లైట్</string>
+    <string name="feature_settings_dark_mode_config_dark">డార్క్</string>
+    <string name="feature_settings_dynamic_color_preference">డైనమిక్ రంగును ఉపయోగించు</string>
+    <string name="feature_settings_dynamic_color_yes">అవును</string>
+    <string name="feature_settings_dynamic_color_no">కాదు</string>
+    <string name="feature_settings_dismiss_dialog_button_text">సరే</string>
+    <string name="feature_settings_change_theme_text">థీమ్ మార్చు</string>
+    <string name="feature_settings_test_added">మార్చబడింది</string>
+    <string name="feature_settings_change_theme_placeholder_text">థీమ్ మార్చు</string>
+    <string name="feature_settings_change_language_text">భాష మార్చు</string>
+    <string name="feature_settings_change_language_placeholder_text">భాష మార్చు</string>
+    <string name="feature_settings_language_preference">భాష</string>
+    <!-- String Arrays -->
+    <string-array name="account_types">
+        <item>పొదుపు ఖాతా</item>
+        <item>కరెంట్ ఖాతా</item>
+        <item>ఫిక్స్‌డ్ డిపాజిట్</item>
+        <item>రికరెంట్ డిపాజిట్</item>
+    </string-array>
+
+    <!-- Plurals -->
+    <plurals name="accounts_count">
+        <item quantity="one">%d ఖాతా</item>
+        <item quantity="other">%d ఖాతాలు</item>
+    </plurals>
+
+</resources>

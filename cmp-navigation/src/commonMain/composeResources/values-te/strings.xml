@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2026 Mifos Initiative
+
+    This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
+    If a copy of the MPL was not distributed with this file,
+    You can obtain one at https://mozilla.org/MPL/2.0/.
+
+    See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
+-->
+<resources>
+    <string name="app_name">KPT డిజైన్</string>
+    <string name="home">హోమ్</string>
+    <string name="profile">ప్రొఫైల్</string>
+    <string name="settings">సెట్టింగ్‌లు</string>
+    <string name="not_connected">⚠️ మీరు ఇంటర్నెట్‌కు కనెక్ట్ కాలేదు</string>
+</resources>

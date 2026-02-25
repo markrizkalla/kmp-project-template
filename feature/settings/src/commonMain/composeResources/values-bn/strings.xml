@@ -29,8 +29,19 @@
     <string name="feature_settings_dynamic_color_no">না</string>
     <string name="feature_settings_dismiss_dialog_button_text">ঠিক আছে</string>
     <string name="feature_settings_change_theme_text">থিম পরিবর্তন করুন</string>
+    <string name="feature_settings_test_added">পরিবর্তিত</string>
     <string name="feature_settings_change_theme_placeholder_text">থিম পরিবর্তন করুন</string>
     <string name="feature_settings_change_language_text">ভাষা পরিবর্তন করুন</string>
     <string name="feature_settings_change_language_placeholder_text">ভাষা পরিবর্তন করুন</string>
     <string name="feature_settings_language_preference">ভাষা</string>
+    <string-array name="account_types">
+        <item>সঞ্চয়ী হিসাব</item>
+        <item>চলতি হিসাব</item>
+        <item>স্থায়ী আমানত</item>
+        <item>পুনরাবৃত্ত আমানত</item>
+    </string-array>
+    <plurals name="accounts_count">
+        <item quantity="one">%d টি অ্যাকাউন্ট</item>
+        <item quantity="other">%d টি অ্যাকাউন্ট</item>
+    </plurals>
 </resources>

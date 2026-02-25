@@ -29,8 +29,19 @@
     <string name="feature_settings_dynamic_color_no">Nem</string>
     <string name="feature_settings_dismiss_dialog_button_text">OK</string>
     <string name="feature_settings_change_theme_text">Téma módosítása</string>
+    <string name="feature_settings_test_added">módosítva</string>
     <string name="feature_settings_change_theme_placeholder_text">Téma módosítása</string>
     <string name="feature_settings_change_language_text">Nyelv megváltoztatása</string>
     <string name="feature_settings_change_language_placeholder_text">Nyelv megváltoztatása</string>
     <string name="feature_settings_language_preference">Nyelv</string>
+    <string-array name="account_types">
+        <item>Megtakarítási számla</item>
+        <item>Folyamatos számla</item>
+        <item>Lejáratig történő betét</item>
+        <item>Rendszeres betét</item>
+    </string-array>
+    <plurals name="accounts_count">
+        <item quantity="one">%d számla</item>
+        <item quantity="other">%d számlák</item>
+    </plurals>
 </resources>

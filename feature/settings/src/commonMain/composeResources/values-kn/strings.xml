@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2026 Mifos Initiative
+
+    This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
+    If a copy of the MPL was not distributed with this file,
+    You can obtain one at https://mozilla.org/MPL/2.0/.
+
+    See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
+-->
+<resources>
+    <string name="feature_settings_top_app_bar_action_icon_description">ಅಂ settings</string>
+    <string name="feature_settings_top_app_bar_navigation_icon_description">ಹುಡುಕಾಟ</string>
+    <string name="feature_settings_title">ಅಂ settings</string>
+    <string name="feature_settings_loading">ಲೋಡ್ ಆಗುತ್ತಿದೆ…</string>
+    <string name="feature_settings_privacy_policy">ಗೋಪ್ಯತಾ ನೀತಿ</string>
+    <string name="feature_settings_licenses">ಲೈಸನ್ಸ್‌ಗಳು</string>
+    <string name="feature_settings_brand_guidelines">ಬ್ರ್ಯಾಂಡ್ ಮಾರ್ಗಸೂಚಿಗಳು</string>
+    <string name="feature_settings_feedback">ಪ್ರತಿಕ್ರಿಯೆ</string>
+    <string name="feature_settings_theme">ಥೀಮ್</string>
+    <string name="feature_settings_brand_default">ಡೀಫಾಲ್ಟ್</string>
+    <string name="feature_settings_brand_android">ಆಂಡ್ರಾಯ್ಡ್</string>
+    <string name="feature_settings_dark_mode_preference">ಡಾರ್ಕ್ ಮೋಡ್ ಆದ್ಯತೆ</string>
+    <string name="feature_settings_dark_mode_config_system_default">ಸಿಸ್ಟಮ್ ಡೀಫಾಲ್ಟ್</string>
+    <string name="feature_settings_dark_mode_config_light">ಬೆಳಕು</string>
+    <string name="feature_settings_dark_mode_config_dark">ಗಡಿಯಾರ</string>
+    <string name="feature_settings_dynamic_color_preference">ಡೈನಾಮಿಕ್ ಕಲರ್ ಬಳಸಿ</string>
+    <string name="feature_settings_dynamic_color_yes">ಹೌದು</string>
+    <string name="feature_settings_dynamic_color_no">ಇಲ್ಲ</string>
+    <string name="feature_settings_dismiss_dialog_button_text">ಸರಿ</string>
+    <string name="feature_settings_change_theme_text">ಥೀಮ್ ಬದಲಾಯಿಸಿ</string>
+    <string name="feature_settings_test_added">ಬದಲಾವಣೆ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="feature_settings_change_theme_placeholder_text">ಥೀಮ್ ಬದಲಾಯಿಸಿ</string>
+    <string name="feature_settings_change_language_text">ಭಾಷೆ ಬದಲಾಯಿಸಿ</string>
+    <string name="feature_settings_change_language_placeholder_text">ಭಾಷೆ ಬದಲಾಯಿಸಿ</string>
+    <string name="feature_settings_language_preference">ಭಾಷೆ</string>
+    <!-- String Arrays -->
+    <string-array name="account_types">
+        <item>ಬಚತ ಖಾತೆ</item>
+        <item>ಚಾಲ್ತಿ ಖಾತೆ</item>
+        <item>ಸ್ಥಿರ ಠೇವಣಿ</item>
+        <item>ಮಾಸಿಕ ಠೇವಣಿ</item>
+    </string-array>
+
+    <!-- Plurals -->
+    <plurals name="accounts_count">
+        <item quantity="one">%d ಖಾತೆ</item>
+        <item quantity="other">%d ಖಾತೆಗಳು</item>
+    </plurals>
+
+</resources>

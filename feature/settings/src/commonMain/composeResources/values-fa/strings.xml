@@ -29,8 +29,19 @@
     <string name="feature_settings_dynamic_color_no">خیر</string>
     <string name="feature_settings_dismiss_dialog_button_text">باشه</string>
     <string name="feature_settings_change_theme_text">تغییر تم</string>
+    <string name="feature_settings_test_added">تغییر یافته</string>
     <string name="feature_settings_change_theme_placeholder_text">تغییر تم</string>
     <string name="feature_settings_change_language_text">تغییر زبان</string>
     <string name="feature_settings_change_language_placeholder_text">تغییر زبان</string>
     <string name="feature_settings_language_preference">زبان</string>
+    <string-array name="account_types">
+        <item>حساب پس‌انداز</item>
+        <item>حساب جاری</item>
+        <item>سپرده ثابت</item>
+        <item>سپرده دوره‌ای</item>
+    </string-array>
+    <plurals name="accounts_count">
+        <item quantity="one">%d حساب</item>
+        <item quantity="other">%d حساب‌ها</item>
+    </plurals>
 </resources>

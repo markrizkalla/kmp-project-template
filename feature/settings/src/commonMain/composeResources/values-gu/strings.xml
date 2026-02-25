@@ -29,8 +29,19 @@
     <string name="feature_settings_dynamic_color_no">ના</string>
     <string name="feature_settings_dismiss_dialog_button_text">ઓકે</string>
     <string name="feature_settings_change_theme_text">થીમ બદલો</string>
+    <string name="feature_settings_test_added">ફેરફાર કરેલ</string>
     <string name="feature_settings_change_theme_placeholder_text">થીમ બદલો</string>
     <string name="feature_settings_change_language_text">ભાષા બદલો</string>
     <string name="feature_settings_change_language_placeholder_text">ભાષા બદલો</string>
     <string name="feature_settings_language_preference">ભાષા</string>
+    <string-array name="account_types">
+        <item>બચત ખાતું</item>
+        <item>ચાલુ ખાતું</item>
+        <item>ફિક્સ્ડ ડિપોઝિટ</item>
+        <item>રિકરિંગ ડિપોઝિટ</item>
+    </string-array>
+    <plurals name="accounts_count">
+        <item quantity="one">%d ખાતું</item>
+        <item quantity="other">%d ખાતાઓ</item>
+    </plurals>
 </resources>
