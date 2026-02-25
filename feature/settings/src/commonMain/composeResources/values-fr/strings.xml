@@ -33,38 +33,14 @@
     <string name="feature_settings_change_language_text">Changer la langue</string>
     <string name="feature_settings_change_language_placeholder_text">Changer la langue</string>
     <string name="feature_settings_language_preference">Langue</string>
-    <string name="app_name">Mifos Mobile</string>
-    <string name="account_overview">Aperçu du compte</string>
-    <string name="welcome_message">Bienvenue, %1$s !</string>
-    <string name="balance_format">Solde : %1$s %2$s</string>
-    <string name="terms_notice">En continuant, vous acceptez nos <b>Conditions d\'utilisation</b> et notre <i>Politique de confidentialité</i></string>
     <string-array name="account_types">
         <item>Compte d\'épargne</item>
         <item>Compte courant</item>
         <item>Dépôt à terme</item>
         <item>Dépôt récurrent</item>
     </string-array>
-    <string-array name="transaction_filters">
-        <item>Toutes les transactions</item>
-        <item>Crédits uniquement</item>
-        <item>Débits uniquement</item>
-        <item>Virements</item>
-        <item>7 derniers jours</item>
-        <item>30 derniers jours</item>
-    </string-array>
     <plurals name="accounts_count">
         <item quantity="one">%d compte</item>
         <item quantity="other">%d comptes</item>
     </plurals>
-    <plurals name="transactions_found">
-        <item quantity="one">%d transaction trouvée</item>
-        <item quantity="other">%d transactions trouvées</item>
-    </plurals>
-    <plurals name="days_remaining">
-        <item quantity="one">%d jour restant</item>
-        <item quantity="other">%d jours restants</item>
-    </plurals>
-    <string name="empty_state">Vous n\'avez pas encore de comptes. \n Appuyez sur + pour en créer un.</string>
-    <string name="percent_format" formatted="false">Traitement en cours à 50 %</string>
-    <string name="at_symbol">\@username_required</string>
 </resources>

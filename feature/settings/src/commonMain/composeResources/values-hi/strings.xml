@@ -33,38 +33,14 @@
     <string name="feature_settings_change_language_text">भाषा बदलें</string>
     <string name="feature_settings_change_language_placeholder_text">भाषा बदलें</string>
     <string name="feature_settings_language_preference">भाषा</string>
-    <string name="app_name">Mifos Mobile</string>
-    <string name="account_overview">खाता अवलोकन</string>
-    <string name="welcome_message">आपका स्वागत है, %1$s!</string>
-    <string name="balance_format">शेष: %1$s %2$s</string>
-    <string name="terms_notice">जारी रखकर आप हमारे <b>सेवा की शर्तें</b> और और <i>गोपनीयता नीति</i> से सहमत हैं</string>
     <string-array name="account_types">
         <item>बचत खाता</item>
         <item>चालू खाता</item>
         <item>निश्चित जमा</item>
         <item>आवर्ती जमा</item>
     </string-array>
-    <string-array name="transaction_filters">
-        <item>सभी लेनदेन</item>
-        <item>केवल क्रेडिट</item>
-        <item>केवल डेबिट</item>
-        <item>स्थानांतरण</item>
-        <item>पिछले 7 दिन</item>
-        <item>पिछले 30 दिन</item>
-    </string-array>
     <plurals name="accounts_count">
         <item quantity="one">%d खाता</item>
         <item quantity="other">%d खाते</item>
     </plurals>
-    <plurals name="transactions_found">
-        <item quantity="one">%d लेनदेन मिला</item>
-        <item quantity="other">%d लेनदेन मिले</item>
-    </plurals>
-    <plurals name="days_remaining">
-        <item quantity="one">%d दिन शेष है</item>
-        <item quantity="other">%d दिन शेष हैं</item>
-    </plurals>
-    <string name="empty_state">आपके पास अभी तक कोई खाता नहीं है.\nएक बनाने के लिए + पर टैप करें।</string>
-    <string name="percent_format" formatted="false">प्रसंस्करण 50% पूर्ण</string>
-    <string name="at_symbol">\@username_required</string>
 </resources>
