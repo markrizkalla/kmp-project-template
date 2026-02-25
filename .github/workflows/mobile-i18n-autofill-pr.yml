@@ -48,7 +48,7 @@ jobs:
         run: |
           python translate.py \
             --mode apply \
-            --locales "ar,bn,de,en,es,fa,fr,gu,hi,hu,pl" \
+            --locales "ar,de,en,es,fr,hi,pl" \
             --model "gemma-3-27b-it" \
             --batch-size 15
 
