@@ -29,6 +29,7 @@
     <string name="feature_settings_dynamic_color_no">नहीं</string>
     <string name="feature_settings_dismiss_dialog_button_text">ठीक है</string>
     <string name="feature_settings_change_theme_text">थीम बदलें</string>
+    <string name="feature_settings_test_added">जोड़ा गया</string>
     <string name="feature_settings_change_theme_placeholder_text">थीम बदलें</string>
     <string name="feature_settings_change_language_text">भाषा बदलें</string>
     <string name="feature_settings_change_language_placeholder_text">भाषा बदलें</string>

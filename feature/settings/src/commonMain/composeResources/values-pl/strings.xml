@@ -29,6 +29,7 @@
     <string name="feature_settings_dynamic_color_no">Nie</string>
     <string name="feature_settings_dismiss_dialog_button_text">OK</string>
     <string name="feature_settings_change_theme_text">Zmień motyw</string>
+    <string name="feature_settings_test_added">dodano</string>
     <string name="feature_settings_change_theme_placeholder_text">Zmień motyw</string>
     <string name="feature_settings_change_language_text">Zmień język</string>
     <string name="feature_settings_change_language_placeholder_text">Zmień język</string>
