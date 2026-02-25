@@ -29,7 +29,7 @@
     <string name="feature_settings_dynamic_color_no">لا</string>
     <string name="feature_settings_dismiss_dialog_button_text">موافق</string>
     <string name="feature_settings_change_theme_text">تغيير الثيم</string>
-    <string name="feature_settings_test_added">مضاف</string>
+    <string name="feature_settings_test_added">تم التغيير</string>
     <string name="feature_settings_change_theme_placeholder_text">تغيير الثيم</string>
     <string name="feature_settings_change_language_text">تغيير اللغة</string>
     <string name="feature_settings_change_language_placeholder_text">تغيير اللغة</string>
