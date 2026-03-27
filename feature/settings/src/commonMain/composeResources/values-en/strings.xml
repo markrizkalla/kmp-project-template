@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright 2022 Mifos Initiative
+    Copyright 2026 Mifos Initiative
 
     This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
     If a copy of the MPL was not distributed with this file,
@@ -34,18 +34,14 @@
     <string name="feature_settings_change_language_text">Change Language</string>
     <string name="feature_settings_change_language_placeholder_text">Change Language</string>
     <string name="feature_settings_language_preference">Language</string>
-    <!-- String Arrays -->
     <string-array name="account_types">
         <item>Savings Account</item>
         <item>Current Account</item>
         <item>Fixed Deposit</item>
         <item>Recurring Deposit</item>
     </string-array>
-
-    <!-- Plurals -->
     <plurals name="accounts_count">
         <item quantity="one">%d account</item>
         <item quantity="other">%d accounts</item>
     </plurals>
-
 </resources>

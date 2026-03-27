@@ -29,8 +29,19 @@
     <string name="feature_settings_dynamic_color_no">No</string>
     <string name="feature_settings_dismiss_dialog_button_text">OK</string>
     <string name="feature_settings_change_theme_text">Cambiar tema</string>
+    <string name="feature_settings_test_added">cambiado</string>
     <string name="feature_settings_change_theme_placeholder_text">Cambiar tema</string>
     <string name="feature_settings_change_language_text">Cambiar idioma</string>
     <string name="feature_settings_change_language_placeholder_text">Cambiar idioma</string>
     <string name="feature_settings_language_preference">Idioma</string>
+    <string-array name="account_types">
+        <item>Cuenta de ahorros</item>
+        <item>Cuenta corriente</item>
+        <item>Depósito a plazo fijo</item>
+        <item>Depósito recurrente</item>
+    </string-array>
+    <plurals name="accounts_count">
+        <item quantity="one">%d cuenta</item>
+        <item quantity="other">%d cuentas</item>
+    </plurals>
 </resources>
