@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2026 Mifos Initiative
+
+    This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
+    If a copy of the MPL was not distributed with this file,
+    You can obtain one at https://mozilla.org/MPL/2.0/.
+
+    See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
+--><resources>
+    <string name="feature_settings_top_app_bar_action_icon_description">تنظیمات</string>
+    <string name="feature_settings_top_app_bar_navigation_icon_description">جستجو</string>
+    <string name="feature_settings_title">تنظیمات</string>
+    <string name="feature_settings_loading">در حال بارگذاری…</string>
+    <string name="feature_settings_privacy_policy">سیاست حفظ حریم خصوصی</string>
+    <string name="feature_settings_licenses">مجوزها</string>
+    <string name="feature_settings_brand_guidelines">دستورالعمل‌های برند</string>
+    <string name="feature_settings_feedback">بازخورد</string>
+    <string name="feature_settings_theme">تم</string>
+    <string name="feature_settings_brand_default">پیش‌فرض</string>
+    <string name="feature_settings_brand_android">اندروید</string>
+    <string name="feature_settings_dark_mode_preference">تنظیمات حالت تاریک</string>
+    <string name="feature_settings_dark_mode_config_system_default">پیش‌فرض سیستم</string>
+    <string name="feature_settings_dark_mode_config_light">روشن</string>
+    <string name="feature_settings_dark_mode_config_dark">تاریک</string>
+    <string name="feature_settings_dynamic_color_preference">استفاده از رنگ پویا</string>
+    <string name="feature_settings_dynamic_color_yes">بله</string>
+    <string name="feature_settings_dynamic_color_no">خیر</string>
+    <string name="feature_settings_dismiss_dialog_button_text">باشه</string>
+    <string name="feature_settings_change_theme_text">تغییر تم</string>
+    <string name="feature_settings_change_theme_placeholder_text">تغییر تم</string>
+    <string name="feature_settings_change_language_text">تغییر زبان</string>
+    <string name="feature_settings_change_language_placeholder_text">تغییر زبان</string>
+    <string name="feature_settings_language_preference">زبان</string>
+<string name="app_name">Mifos Mobile</string>
+    <string name="account_overview">بررسی حساب</string>
+    <string name="welcome_message">خوش آمدید، %1$s!</string>
+    <string name="balance_format">موجودی: %1$s %2$s</string>
+    <string name="terms_notice">با ادامه دادن، شما با <b>شرایط خدمات</b> و <i>سیاست حفظ حریم خصوصی</i> موافقت می‌کنید</string>
+    <string-array name="account_types">
+        <item>حساب پس انداز</item>
+        <item>حساب جاری</item>
+        <item>سپرده ثابت</item>
+        <item>سپرده دوره‌ای</item>
+    </string-array>
+
+    <string-array name="transaction_filters">
+        <item>همه تراکنش‌ها</item>
+        <item>فقط اعتبارات</item>
+        <item>فقط بدهی‌ها</item>
+        <item>انتقال‌ها</item>
+        <item>۷ روز گذشته</item>
+        <item>۳۰ روز گذشته</item>
+    </string-array>
+
+    <plurals name="accounts_count">
+        <item quantity="one">%d حساب</item>
+        <item quantity="other">%d حساب‌ها</item>
+    </plurals>
+
+    <plurals name="transactions_found">
+        <item quantity="one">%d تراکنش یافت شد</item>
+        <item quantity="other">%d تراکنش یافت شد</item>
+    </plurals>
+
+    <plurals name="days_remaining">
+        <item quantity="one">%d روز باقی مانده</item>
+        <item quantity="other">%d روز باقی مانده</item>
+    </plurals>
+
+    <string name="empty_state">شما هنوز هیچ حسابی ندارید.\nبرای ایجاد یک حساب + را لمس کنید.</string>
+    <string name="percent_format" formatted="false">پردازش 50% کامل شد</string>
+    <string name="at_symbol">\@username_required</string>
+</resources>

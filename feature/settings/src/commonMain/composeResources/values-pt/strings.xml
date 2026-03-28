@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2026 Mifos Initiative
+
+    This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
+    If a copy of the MPL was not distributed with this file,
+    You can obtain one at https://mozilla.org/MPL/2.0/.
+
+    See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
+--><resources>
+    <string name="feature_settings_top_app_bar_action_icon_description">Configurações</string>
+    <string name="feature_settings_top_app_bar_navigation_icon_description">Pesquisar</string>
+    <string name="feature_settings_title">Configurações</string>
+    <string name="feature_settings_loading">Carregando…</string>
+    <string name="feature_settings_privacy_policy">Política de privacidade</string>
+    <string name="feature_settings_licenses">Licenças</string>
+    <string name="feature_settings_brand_guidelines">Diretrizes da marca</string>
+    <string name="feature_settings_feedback">Feedback</string>
+    <string name="feature_settings_theme">Tema</string>
+    <string name="feature_settings_brand_default">Padrão</string>
+    <string name="feature_settings_brand_android">Android</string>
+    <string name="feature_settings_dark_mode_preference">Preferência do modo escuro</string>
+    <string name="feature_settings_dark_mode_config_system_default">Padrão do sistema</string>
+    <string name="feature_settings_dark_mode_config_light">Claro</string>
+    <string name="feature_settings_dark_mode_config_dark">Escuro</string>
+    <string name="feature_settings_dynamic_color_preference">Usar Cor Dinâmica</string>
+    <string name="feature_settings_dynamic_color_yes">Sim</string>
+    <string name="feature_settings_dynamic_color_no">Não</string>
+    <string name="feature_settings_dismiss_dialog_button_text">OK</string>
+    <string name="feature_settings_change_theme_text">Alterar Tema</string>
+    <string name="feature_settings_change_theme_placeholder_text">Alterar Tema</string>
+    <string name="feature_settings_change_language_text">Alterar Idioma</string>
+    <string name="feature_settings_change_language_placeholder_text">Alterar Idioma</string>
+    <string name="feature_settings_language_preference">Idioma</string>
+<string name="app_name">Mifos Mobile</string>
+    <string name="account_overview">Visão Geral da Conta</string>
+    <string name="welcome_message">Bem-vindo de volta, %1$s!</string>
+    <string name="balance_format">Saldo: %1$s %2$s</string>
+    <string name="terms_notice">Ao continuar, você concorda com nossos <b>Termos de Serviço</b> e <i>Política de Privacidade</i></string>
+    <string-array name="account_types">
+        <item>Conta Poupança</item>
+        <item>Conta Corrente</item>
+        <item>Depósito a Prazo</item>
+        <item>Depósito Recorrente</item>
+    </string-array>
+
+    <string-array name="transaction_filters">
+        <item>Todas as Transações</item>
+        <item>Apenas Créditos</item>
+        <item>Apenas Débitos</item>
+        <item>Transferências</item>
+        <item>Últimos 7 Dias</item>
+        <item>Últimos 30 Dias</item>
+    </string-array>
+
+    <plurals name="accounts_count">
+        <item quantity="one">%d conta</item>
+        <item quantity="other">%d contas</item>
+    </plurals>
+
+    <plurals name="transactions_found">
+        <item quantity="one">%d transação encontrada</item>
+        <item quantity="other">%d transações encontradas</item>
+    </plurals>
+
+    <plurals name="days_remaining">
+        <item quantity="one">%d dia restante</item>
+        <item quantity="other">%d dias restantes</item>
+    </plurals>
+
+    <string name="empty_state">Você ainda não tem nenhuma conta.\nToque em + para criar uma.</string>
+    <string name="percent_format" formatted="false">Processamento 50% concluído</string>
+    <string name="at_symbol">\@username_required</string>
+</resources>

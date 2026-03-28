@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2026 Mifos Initiative
+
+    This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
+    If a copy of the MPL was not distributed with this file,
+    You can obtain one at https://mozilla.org/MPL/2.0/.
+
+    See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
+--><resources>
+    <string name="feature_settings_top_app_bar_action_icon_description">إعدادات</string>
+    <string name="feature_settings_top_app_bar_navigation_icon_description">بحث</string>
+    <string name="feature_settings_title">إعدادات</string>
+    <string name="feature_settings_loading">جارٍ التحميل…</string>
+    <string name="feature_settings_privacy_policy">سياسة الخصوصية</string>
+    <string name="feature_settings_licenses">التراخيص</string>
+    <string name="feature_settings_brand_guidelines">إرشادات العلامة التجارية</string>
+    <string name="feature_settings_feedback">ملاحظات</string>
+    <string name="feature_settings_theme">السمة</string>
+    <string name="feature_settings_brand_default">افتراضي</string>
+    <string name="feature_settings_brand_android">أندرويد</string>
+    <string name="feature_settings_dark_mode_preference">تفضيل الوضع الداكن</string>
+    <string name="feature_settings_dark_mode_config_system_default">افتراضي النظام</string>
+    <string name="feature_settings_dark_mode_config_light">فاتح</string>
+    <string name="feature_settings_dark_mode_config_dark">داكن</string>
+    <string name="feature_settings_dynamic_color_preference">استخدام الألوان الديناميكية</string>
+    <string name="feature_settings_dynamic_color_yes">نعم</string>
+    <string name="feature_settings_dynamic_color_no">لا</string>
+    <string name="feature_settings_dismiss_dialog_button_text">موافق</string>
+    <string name="feature_settings_change_theme_text">تغيير الثيم</string>
+    <string name="feature_settings_change_theme_placeholder_text">تغيير الثيم</string>
+    <string name="feature_settings_change_language_text">تغيير اللغة</string>
+    <string name="feature_settings_change_language_placeholder_text">تغيير اللغة</string>
+    <string name="feature_settings_language_preference">اللغة</string>
+<string name="app_name">Mifos Mobile</string>
+    <string name="account_overview">نظرة عامة على الحساب</string>
+    <string name="welcome_message">أهلاً بك مرة أخرى، %1$s!</string>
+    <string name="balance_format">الرصيد: %1$s %2$s</string>
+    <string name="terms_notice">بمتابعة الاستخدام، أنت توافق على <b>شروط الخدمة</b> و <i>سياسة الخصوصية</i></string>
+    <string-array name="account_types">
+        <item>حساب توفير</item>
+        <item>حساب جاري</item>
+        <item>وديعة ثابتة</item>
+        <item>وديعة متكررة</item>
+    </string-array>
+
+    <string-array name="transaction_filters">
+        <item>جميع المعاملات</item>
+        <item>الرصيد الدائن فقط</item>
+        <item>الرصيد المدين فقط</item>
+        <item>تحويلات</item>
+        <item>آخر 7 أيام</item>
+        <item>آخر 30 يومًا</item>
+    </string-array>
+
+    <plurals name="accounts_count">
+        <item quantity="one">%d حساب</item>
+        <item quantity="other">%d حسابات</item>
+    </plurals>
+
+    <plurals name="transactions_found">
+        <item quantity="one">تم العثور على %d معاملة</item>
+        <item quantity="other">تم العثور على %d معاملات</item>
+    </plurals>
+
+    <plurals name="days_remaining">
+        <item quantity="one">يوم واحد متبقي %d</item>
+        <item quantity="other">%d أيام متبقية</item>
+    </plurals>
+
+    <string name="empty_state">ليس لديك أي حسابات حتى الآن.\nانقر على + لإنشاء حساب.</string>
+    <string name="percent_format" formatted="false">جاري المعالجة بنسبة 50٪</string>
+    <string name="at_symbol">\@username_required</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2026 Mifos Initiative
+
+    This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
+    If a copy of the MPL was not distributed with this file,
+    You can obtain one at https://mozilla.org/MPL/2.0/.
+
+    See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
+--><resources>
+    <string name="feature_settings_top_app_bar_action_icon_description">सेटिंग्ज</string>
+    <string name="feature_settings_top_app_bar_navigation_icon_description">शोध</string>
+    <string name="feature_settings_title">सेटिंग्ज</string>
+    <string name="feature_settings_loading">लोड होत आहे...</string>
+    <string name="feature_settings_privacy_policy">गोपनीयता धोरण</string>
+    <string name="feature_settings_licenses">परवाने</string>
+    <string name="feature_settings_brand_guidelines">ब्रँड मार्गदर्शक तत्त्वे</string>
+    <string name="feature_settings_feedback">अभिप्राय</string>
+    <string name="feature_settings_theme">थीम</string>
+    <string name="feature_settings_brand_default">डीफॉल्ट</string>
+    <string name="feature_settings_brand_android">Android</string>
+    <string name="feature_settings_dark_mode_preference">डार्क मोड प्राधान्य</string>
+    <string name="feature_settings_dark_mode_config_system_default">सिस्टम डीफॉल्ट</string>
+    <string name="feature_settings_dark_mode_config_light">हलका</string>
+    <string name="feature_settings_dark_mode_config_dark">गडद</string>
+    <string name="feature_settings_dynamic_color_preference">डायनॅमिक रंग वापरा</string>
+    <string name="feature_settings_dynamic_color_yes">होय</string>
+    <string name="feature_settings_dynamic_color_no">नाही</string>
+    <string name="feature_settings_dismiss_dialog_button_text">ठीक आहे</string>
+    <string name="feature_settings_change_theme_text">थीम बदला</string>
+    <string name="feature_settings_change_theme_placeholder_text">थीम बदला</string>
+    <string name="feature_settings_change_language_text">भाषा बदला</string>
+    <string name="feature_settings_change_language_placeholder_text">भाषा बदला</string>
+    <string name="feature_settings_language_preference">भाषा</string>
+<string name="app_name">Mifos Mobile</string>
+    <string name="account_overview">खात्याचा आढावा</string>
+    <string name="welcome_message">तुमचे स्वागत आहे, %1$s!</string>
+    <string name="balance_format">शिल्लक: %1$s %2$s</string>
+    <string name="terms_notice">पुढे चालू ठेवल्यास तुम्ही आमच्या <b>सेवा अटी</b> आणि <i>गोपनीयता धोरण</i> मान्य करता.</string>
+    <string-array name="account_types">
+        <item>बचत खाते</item>
+        <item>चालू खाते</item>
+        <item>मुदत ठेव</item>
+        <item>आवर्ती ठेव</item>
+    </string-array>
+
+    <string-array name="transaction_filters">
+        <item>सर्व व्यवहार</item>
+        <item>फक्त क्रेडिट</item>
+        <item>फक्त डेबिट</item>
+        <item>हवालें</item>
+        <item>मागील ७ दिवस</item>
+        <item>मागील ३० दिवस</item>
+    </string-array>
+
+    <plurals name="accounts_count">
+        <item quantity="one">%d खाते</item>
+        <item quantity="other">%d खाती</item>
+    </plurals>
+
+    <plurals name="transactions_found">
+        <item quantity="one">%d व्यवहार आढळला</item>
+        <item quantity="other">%d व्यवहार आढळले</item>
+    </plurals>
+
+    <plurals name="days_remaining">
+        <item quantity="one">%d दिवस शिल्लक आहे</item>
+        <item quantity="other">%d दिवस शिल्लक आहेत</item>
+    </plurals>
+
+    <string name="empty_state">तुमच्याकडे अद्याप कोणतेही खाते नाही.\nनवीन खाते तयार करण्यासाठी + वर टॅप करा.</string>
+    <string name="percent_format" formatted="false">प्रक्रिया 50% पूर्ण झाली</string>
+    <string name="at_symbol">\@username_required</string>
+</resources>

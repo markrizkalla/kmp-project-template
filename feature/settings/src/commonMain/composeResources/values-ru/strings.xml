@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2026 Mifos Initiative
+
+    This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
+    If a copy of the MPL was not distributed with this file,
+    You can obtain one at https://mozilla.org/MPL/2.0/.
+
+    See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
+--><resources>
+    <string name="feature_settings_top_app_bar_action_icon_description">Настройки</string>
+    <string name="feature_settings_top_app_bar_navigation_icon_description">Поиск</string>
+    <string name="feature_settings_title">Настройки</string>
+    <string name="feature_settings_loading">Загрузка…</string>
+    <string name="feature_settings_privacy_policy">Политика конфиденциальности</string>
+    <string name="feature_settings_licenses">Лицензии</string>
+    <string name="feature_settings_brand_guidelines">Руководство по бренду</string>
+    <string name="feature_settings_feedback">Обратная связь</string>
+    <string name="feature_settings_theme">Тема</string>
+    <string name="feature_settings_brand_default">По умолчанию</string>
+    <string name="feature_settings_brand_android">Android</string>
+    <string name="feature_settings_dark_mode_preference">Предпочтения темного режима</string>
+    <string name="feature_settings_dark_mode_config_system_default">По умолчанию в системе</string>
+    <string name="feature_settings_dark_mode_config_light">Светлая</string>
+    <string name="feature_settings_dark_mode_config_dark">Темная</string>
+    <string name="feature_settings_dynamic_color_preference">Использовать динамические цвета</string>
+    <string name="feature_settings_dynamic_color_yes">Да</string>
+    <string name="feature_settings_dynamic_color_no">Нет</string>
+    <string name="feature_settings_dismiss_dialog_button_text">ОК</string>
+    <string name="feature_settings_change_theme_text">Изменить тему</string>
+    <string name="feature_settings_change_theme_placeholder_text">Изменить тему</string>
+    <string name="feature_settings_change_language_text">Изменить язык</string>
+    <string name="feature_settings_change_language_placeholder_text">Изменить язык</string>
+    <string name="feature_settings_language_preference">Язык</string>
+<string name="app_name">Mifos Mobile</string>
+    <string name="account_overview">Обзор счета</string>
+    <string name="welcome_message">Добро пожаловать, %1$s!</string>
+    <string name="balance_format">Баланс: %1$s %2$s</string>
+    <string name="terms_notice">Продолжая, вы соглашаетесь с нашими <b>Условиями обслуживания</b> и <i>Политикой конфиденциальности</i></string>
+    <string-array name="account_types">
+        <item>Сберегательный счет</item>
+        <item>Текущий счет</item>
+        <item>Депозит на определенный срок</item>
+        <item>Накопительный депозит</item>
+    </string-array>
+
+    <string-array name="transaction_filters">
+        <item>Все транзакции</item>
+        <item>Только кредиты</item>
+        <item>Только дебеты</item>
+        <item>Переводы</item>
+        <item>Последние 7 дней</item>
+        <item>Последние 30 дней</item>
+    </string-array>
+
+    <plurals name="accounts_count">
+        <item quantity="one">%d счет</item>
+        <item quantity="other">%d счета</item>
+    </plurals>
+
+    <plurals name="transactions_found">
+        <item quantity="one">Найдена %d транзакция</item>
+        <item quantity="other">Найдено %d транзакций</item>
+    </plurals>
+
+    <plurals name="days_remaining">
+        <item quantity="one">Остался %d день</item>
+        <item quantity="other">Осталось %d дней</item>
+    </plurals>
+
+    <string name="empty_state">У вас пока нет ни одного счета.\nНажмите + для создания.</string>
+    <string name="percent_format" formatted="false">Выполнено 50%</string>
+    <string name="at_symbol">\@username_required</string>
+</resources>

@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright 2022 Mifos Initiative
+    Copyright 2026 Mifos Initiative
 
     This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
     If a copy of the MPL was not distributed with this file,
     You can obtain one at https://mozilla.org/MPL/2.0/.
 
     See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
--->
-<resources>
+--><resources>
     <string name="feature_settings_top_app_bar_action_icon_description">Settings</string>
     <string name="feature_settings_top_app_bar_navigation_icon_description">Search</string>
     <string name="feature_settings_title">Settings</string>
@@ -33,20 +32,11 @@
     <string name="feature_settings_change_language_text">Change Language</string>
     <string name="feature_settings_change_language_placeholder_text">Change Language</string>
     <string name="feature_settings_language_preference">Language</string>
-
-    <!-- Account Section -->
-    <string name="app_name">Mifos Mobile</string>
+<string name="app_name">Mifos Mobile</string>
     <string name="account_overview">Account Overview</string>
     <string name="welcome_message">Welcome back, %1$s!</string>
     <string name="balance_format">Balance: %1$s %2$s</string>
-
-    <!-- Non-translatable (should be skipped) -->
-    <string name="api_base_url" translatable="false">https://api.mifos.org</string>
-
-    <!-- With markup -->
-    <string name="terms_notice">By continuing you agree to our <b>Terms of Service</b> and <i>Privacy Policy</i></string>
-
-    <!-- String Arrays -->
+    <string name="terms_notice">By continuing you agree to our <b>Terms of Service</b> and  and <i>Privacy Policy</i></string>
     <string-array name="account_types">
         <item>Savings Account</item>
         <item>Current Account</item>
@@ -63,7 +53,6 @@
         <item>Last 30 Days</item>
     </string-array>
 
-    <!-- Plurals -->
     <plurals name="accounts_count">
         <item quantity="one">%d account</item>
         <item quantity="other">%d accounts</item>
@@ -79,9 +68,7 @@
         <item quantity="other">%d days remaining</item>
     </plurals>
 
-    <!-- Edge cases -->
     <string name="empty_state">You don\'t have any accounts yet.\nTap + to create one.</string>
     <string name="percent_format" formatted="false">Processing 50% complete</string>
     <string name="at_symbol">\@username_required</string>
-
 </resources>

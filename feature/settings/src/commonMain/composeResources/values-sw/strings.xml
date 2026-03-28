@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2026 Mifos Initiative
+
+    This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
+    If a copy of the MPL was not distributed with this file,
+    You can obtain one at https://mozilla.org/MPL/2.0/.
+
+    See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
+--><resources>
+    <string name="feature_settings_top_app_bar_action_icon_description">Mazingira</string>
+    <string name="feature_settings_top_app_bar_navigation_icon_description">Tafuta</string>
+    <string name="feature_settings_title">Mazingira</string>
+    <string name="feature_settings_loading">Inapakia…</string>
+    <string name="feature_settings_privacy_policy">Sera ya faragha</string>
+    <string name="feature_settings_licenses">Leseni</string>
+    <string name="feature_settings_brand_guidelines">Miongozo ya Chapa</string>
+    <string name="feature_settings_feedback">Maoni</string>
+    <string name="feature_settings_theme">Mandhari</string>
+    <string name="feature_settings_brand_default">Chaguomchujo</string>
+    <string name="feature_settings_brand_android">Android</string>
+    <string name="feature_settings_dark_mode_preference">Upendeleo wa hali ya giza</string>
+    <string name="feature_settings_dark_mode_config_system_default">Chaguomchujo cha mfumo</string>
+    <string name="feature_settings_dark_mode_config_light">Mwanga</string>
+    <string name="feature_settings_dark_mode_config_dark">Giza</string>
+    <string name="feature_settings_dynamic_color_preference">Tumia Rangi Zinazobadilika</string>
+    <string name="feature_settings_dynamic_color_yes">Ndiyo</string>
+    <string name="feature_settings_dynamic_color_no">Hapana</string>
+    <string name="feature_settings_dismiss_dialog_button_text">Sawa</string>
+    <string name="feature_settings_change_theme_text">Badilisha Mandhari</string>
+    <string name="feature_settings_change_theme_placeholder_text">Badilisha Mandhari</string>
+    <string name="feature_settings_change_language_text">Badilisha Lugha</string>
+    <string name="feature_settings_change_language_placeholder_text">Badilisha Lugha</string>
+    <string name="feature_settings_language_preference">Lugha</string>
+<string name="app_name">Mifos Mobile</string>
+    <string name="account_overview">Muhtasari wa Akaunti</string>
+    <string name="welcome_message">Karibu tena, %1$s!</string>
+    <string name="balance_format">Salio: %1$s %2$s</string>
+    <string name="terms_notice">Kwa kuendelea unakubali <b>Masharti ya Huduma</b> na <i>Sera ya Faragha</i></string>
+    <string-array name="account_types">
+        <item>Akaunti ya Kuokoa</item>
+        <item>Akaunti ya Sasa</item>
+        <item>Amana ya Kudumu</item>
+        <item>Amana ya Kurudia</item>
+    </string-array>
+
+    <string-array name="transaction_filters">
+        <item>Manunuzi Yote</item>
+        <item>Mikopo Tu</item>
+        <item>Madeni Tu</item>
+        <item>Hamisho</item>
+        <item>Siku 7 Zilizopita</item>
+        <item>Siku 30 Zilizopita</item>
+    </string-array>
+
+    <plurals name="accounts_count">
+        <item quantity="one">%d akaunti</item>
+        <item quantity="other">%d akaunti</item>
+    </plurals>
+
+    <plurals name="transactions_found">
+        <item quantity="one">%d muamala umebainika</item>
+        <item quantity="other">%d muamala umebainika</item>
+    </plurals>
+
+    <plurals name="days_remaining">
+        <item quantity="one">%d siku imebaki</item>
+        <item quantity="other">%d siku zimebaki</item>
+    </plurals>
+
+    <string name="empty_state">Huna akaunti zozote bado.\nGusa + ili kuunda moja.</string>
+    <string name="percent_format" formatted="false">Uchakataji umekamilika 50%</string>
+    <string name="at_symbol">\@username_required</string>
+</resources>

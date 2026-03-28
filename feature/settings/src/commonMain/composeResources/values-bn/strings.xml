@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2026 Mifos Initiative
+
+    This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
+    If a copy of the MPL was not distributed with this file,
+    You can obtain one at https://mozilla.org/MPL/2.0/.
+
+    See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
+--><resources>
+    <string name="feature_settings_top_app_bar_action_icon_description">সেটিংস</string>
+    <string name="feature_settings_top_app_bar_navigation_icon_description">অনুসন্ধান</string>
+    <string name="feature_settings_title">সেটিংস</string>
+    <string name="feature_settings_loading">লোড হচ্ছে…</string>
+    <string name="feature_settings_privacy_policy">গোপনীয়তা নীতি</string>
+    <string name="feature_settings_licenses">লাইসেন্স</string>
+    <string name="feature_settings_brand_guidelines">ব্র্যান্ড নির্দেশিকা</string>
+    <string name="feature_settings_feedback">মতামত</string>
+    <string name="feature_settings_theme">থিম</string>
+    <string name="feature_settings_brand_default">ডিফল্ট</string>
+    <string name="feature_settings_brand_android">অ্যান্ড্রয়েড</string>
+    <string name="feature_settings_dark_mode_preference">ডার্ক মোড পছন্দ</string>
+    <string name="feature_settings_dark_mode_config_system_default">সিস্টেম ডিফল্ট</string>
+    <string name="feature_settings_dark_mode_config_light">লাইট</string>
+    <string name="feature_settings_dark_mode_config_dark">ডার্ক</string>
+    <string name="feature_settings_dynamic_color_preference">ডাইনামিক রঙ ব্যবহার করুন</string>
+    <string name="feature_settings_dynamic_color_yes">হ্যাঁ</string>
+    <string name="feature_settings_dynamic_color_no">না</string>
+    <string name="feature_settings_dismiss_dialog_button_text">ঠিক আছে</string>
+    <string name="feature_settings_change_theme_text">থিম পরিবর্তন করুন</string>
+    <string name="feature_settings_change_theme_placeholder_text">থিম পরিবর্তন করুন</string>
+    <string name="feature_settings_change_language_text">ভাষা পরিবর্তন করুন</string>
+    <string name="feature_settings_change_language_placeholder_text">ভাষা পরিবর্তন করুন</string>
+    <string name="feature_settings_language_preference">ভাষা</string>
+<string name="app_name">Mifos Mobile</string>
+    <string name="account_overview">অ্যাকাউন্ট ওভারভিউ</string>
+    <string name="welcome_message">স্বাগতম, %1$s!</string>
+    <string name="balance_format">ব্যালেন্স: %1$s %2$s</string>
+    <string name="terms_notice">চালিয়ে যান으로써 আপনি আমাদের <b>পরিষেবার শর্তাবলী</b> এবং <i>গোপনীয়তা নীতি</i> এর সাথে সম্মত হচ্ছেন</string>
+    <string-array name="account_types">
+        <item>সঞ্চয়ী হিসাব</item>
+        <item> চলতি হিসাব</item>
+        <item>স্থায়ী আমানত</item>
+        <item>পুনরাবৃত্ত আমানত</item>
+    </string-array>
+
+    <string-array name="transaction_filters">
+        <item>সমস্ত লেনদেন</item>
+        <item>শুধুমাত্র ক্রেডিট</item>
+        <item>শুধুমাত্র ডেবিট</item>
+        <item>স্থানান্তর</item>
+        <item>গত ৭ দিন</item>
+        <item>গত ৩০ দিন</item>
+    </string-array>
+
+    <plurals name="accounts_count">
+        <item quantity="one">%d টি অ্যাকাউন্ট</item>
+        <item quantity="other">%d টি অ্যাকাউন্ট</item>
+    </plurals>
+
+    <plurals name="transactions_found">
+        <item quantity="one">%d টি লেনদেন পাওয়া গেছে</item>
+        <item quantity="other">%d টি লেনদেন পাওয়া গেছে</item>
+    </plurals>
+
+    <plurals name="days_remaining">
+        <item quantity="one">%d দিন বাকি</item>
+        <item quantity="other">%d দিন বাকি</item>
+    </plurals>
+
+    <string name="empty_state">আপনার কাছে এখনও কোনো অ্যাকাউন্ট নেই।\nএকটি তৈরি করতে + এ আলতো চাপুন।</string>
+    <string name="percent_format" formatted="false">প্রক্রিয়াকরণ ৫০% সম্পন্ন হয়েছে</string>
+    <string name="at_symbol">\@username_required</string>
+</resources>
