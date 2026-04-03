@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2026 Mifos Initiative
+
+    This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
+    If a copy of the MPL was not distributed with this file,
+    You can obtain one at https://mozilla.org/MPL/2.0/.
+
+    See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
+-->
+<resources>
+    <string name="feature_settings_top_app_bar_action_icon_description">Configurações</string>
+    <string name="feature_settings_top_app_bar_navigation_icon_description">Pesquisar</string>
+    <string name="feature_settings_title">Configurações</string>
+    <string name="feature_settings_loading">Carregando…</string>
+    <string name="feature_settings_privacy_policy">Política de privacidade</string>
+    <string name="feature_settings_licenses">Licenças</string>
+    <string name="feature_settings_brand_guidelines">Diretrizes da marca</string>
+    <string name="feature_settings_feedback">Feedback</string>
+    <string name="feature_settings_theme">Tema</string>
+    <string name="feature_settings_brand_default">Padrão</string>
+    <string name="feature_settings_brand_android">Android</string>
+    <string name="feature_settings_dark_mode_preference">Preferência do modo escuro</string>
+    <string name="feature_settings_dark_mode_config_system_default">Padrão do sistema</string>
+    <string name="feature_settings_dark_mode_config_light">Claro</string>
+    <string name="feature_settings_dark_mode_config_dark">Escuro</string>
+    <string name="feature_settings_dynamic_color_preference">Usar Cor Dinâmica</string>
+    <string name="feature_settings_dynamic_color_yes">Sim</string>
+    <string name="feature_settings_dynamic_color_no">Não</string>
+    <string name="feature_settings_dismiss_dialog_button_text">OK</string>
+    <string name="feature_settings_change_theme_text">Alterar Tema</string>
+    <string name="feature_settings_change_theme_placeholder_text">Alterar Tema</string>
+    <string name="feature_settings_change_language_text">Alterar Idioma</string>
+    <string name="feature_settings_change_language_placeholder_text">Alterar Idioma</string>
+    <string name="feature_settings_language_preference">Idioma</string>
+</resources>

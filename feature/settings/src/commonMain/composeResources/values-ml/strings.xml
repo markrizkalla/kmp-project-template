@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2026 Mifos Initiative
+
+    This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
+    If a copy of the MPL was not distributed with this file,
+    You can obtain one at https://mozilla.org/MPL/2.0/.
+
+    See https://github.com/openMF/kmp-project-template/blob/main/LICENSE
+-->
+<resources>
+    <string name="feature_settings_top_app_bar_action_icon_description">ക്രമീകരണങ്ങൾ</string>
+    <string name="feature_settings_top_app_bar_navigation_icon_description">തിരയുക</string>
+    <string name="feature_settings_title">ക്രമീകരണങ്ങൾ</string>
+    <string name="feature_settings_loading">ലോഡിംഗ്…</string>
+    <string name="feature_settings_privacy_policy">സ്വകാര്യതാ നയം</string>
+    <string name="feature_settings_licenses">ലൈസൻസുകൾ</string>
+    <string name="feature_settings_brand_guidelines">ബ്രാൻഡ് മാർഗ്ഗനിർദ്ദേശങ്ങൾ</string>
+    <string name="feature_settings_feedback">അഭിപ്രాయം</string>
+    <string name="feature_settings_theme">തീം</string>
+    <string name="feature_settings_brand_default">സ്ഥിരം</string>
+    <string name="feature_settings_brand_android">Android</string>
+    <string name="feature_settings_dark_mode_preference">ഡാർക്ക് മോഡ് പ്രിഫറൻസ്</string>
+    <string name="feature_settings_dark_mode_config_system_default">സിസ്റ്റം സ്ഥിരകം</string>
+    <string name="feature_settings_dark_mode_config_light">ലൈറ്റ്</string>
+    <string name="feature_settings_dark_mode_config_dark">ഡാർക്ക്</string>
+    <string name="feature_settings_dynamic_color_preference">ഡൈനാമിക് നിറം ഉപയോഗിക്കുക</string>
+    <string name="feature_settings_dynamic_color_yes">അതെ</string>
+    <string name="feature_settings_dynamic_color_no">ഇല്ല</string>
+    <string name="feature_settings_dismiss_dialog_button_text">ശരി</string>
+    <string name="feature_settings_change_theme_text">തീം മാറ്റുക</string>
+    <string name="feature_settings_change_theme_placeholder_text">തീം മാറ്റുക</string>
+    <string name="feature_settings_change_language_text">ഭാഷ മാറ്റുക</string>
+    <string name="feature_settings_change_language_placeholder_text">ഭാഷ മാറ്റുക</string>
+    <string name="feature_settings_language_preference">ഭാഷ</string>
+</resources>
